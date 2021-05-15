@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register609</title>
+    <script type="text/javascript"src="Script/jquery-1.7.2.js"></script>
+</head>
+<body>
+<h1 align="center" style="color: red">欢迎注册</h1>
+<div>
+    <form action="Reg" method="post">
+        <table style="margin: 0px auto">
+            <tr>
+                <th>用户名:</th>
+                <td><input align="center" type="text" name="username" placeholder="请输入用户名"></td>
+            </tr>
+            <tr>
+                <th>密码:</th>
+                <td><input align="center" type="password" name="password" placeholder="请输入密码"></td>
+            </tr>
+            <tr>
+                <th>性别:</th>
+                <td>
+                    男<input type="radio" name="sex" value="male">
+                    女<input type="radio" name="sex" value="female">
+                </td>
+            </tr>
+            <tr>
+                <th>学历:</th>
+                <td><select name="edu" id="edu">
+                    <option value="">---请选择学历---</option>
+                    <option value="">高中</option>
+                    <option value="">本科</option>
+                    <option value="">研究生</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>自我介绍</th>
+                <td><textarea name="introduce" id="itd" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <th>电话:</th>
+                <td><input align="center" type="text" name="tel" placeholder="请输入电话"></td>
+            </tr>
+            <tr>
+                <th>地址:</th>
+                <td><input align="center" type="text" name="address" placeholder="请输入地址"></td>
+            </tr>
+        </table>
+        <div align="center">
+            &nbsp;
+            <input type="button" value="返回登录" onclick="javascript:window.location.href='Login609.html' ">
+            &nbsp;
+            <input type="reset" value="重置">
+            &nbsp;
+            <input type="submit" value="注册">
+        </div>
+    </form>
+
+</div>
+</body>
+</html>

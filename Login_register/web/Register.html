@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <script type="text/javascript" src="/Script/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+        //验证用户名
+        $(function (){
+            //给登录绑定单击事件
+            $("#sub_btn").click(function (){
+                var usernameText = $("#username").val();
+                var usernamePatt =/^\w{5,12}$/;
+                alert(passwordText);
+                if(!usernamePatt.test(usernameText)){
+                    $("span.errorMsg").text("用户名不合法！");
+                    return false;
+                }
+            })
+
+
+            //验证密码 ：必须由字母、数字及下划线组成，并且长度为5到12位
+            //1获取用户输入框中的内容
+            var passwordText = $("#password").val();
+            var passwordPatt = /^\w{5,12}$/;
+
+            if(!passwordPatt.test(passwordText)){
+                $("span.errorMsg").text("密码不合法");
+
+                return false;
+            }
+            // $("span.errorMsg").text("");
+            //
+            // $("#Log_btn").click(function (){
+            //     location.href="../Login/Login.html";
+            // })
+        })
+            </script>
+</head>
+<body>
+<form>
+    <div class="form">
+
+        <label>用户名称：</label> <input type="text" name="username" id="username" /><span class="errorMsg"></span>
+        <br />
+        <br />
+        <label>密码：</label><input type="password" name="password" id="password" />
+        <br />
+        <br />
+        <input type="submit" value="登录"  id="sub_btn" />
+        <input type="reset" value="重置" id="re_btn" />
+        <input type="button" value="注册" onclick="javascript:window.location.href='Login.html'"></input>
+<!--       <button id="Log_btn" value="注册">注册</button>-->
+    </div>
+</form>
+</body>
+</html>

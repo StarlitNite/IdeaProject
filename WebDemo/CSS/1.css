@@ -1,0 +1,10 @@
+/*
+    把CSS样式写成一个单独的css文件，再通过link标签引入即可复用
+    使用html的<link rel="stylesheet" type="test/css" href="./styles.css/>标签 导入css样式文件
+*/
+div{
+    border: 1px solid rebeccapurple;
+}
+span{
+    border: 1px solid red;
+}

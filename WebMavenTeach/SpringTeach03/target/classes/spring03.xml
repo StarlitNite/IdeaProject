@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="TypeDao" class="org.example.dao.TypeDao"></bean>
+    <!--<bean id="TypeService" class="org.example.service.TypeService">
+        &lt;!&ndash;
+            set方法注入
+                通过property属性实现set方法注入
+            name:属性字段的名称
+            ref:对应bean标签的id属性值
+            value:对应的值
+        &ndash;&gt;
+        <property name="typeDao" ref="TypeDao"></property>
+        <property name="host" value="localhost"></property>
+        <property name="port" value="8080"></property>
+    </bean>-->
+
+
+        <!-- 构造器注入
+                缺点：会发生死锁(循环依赖)的情况 用set注入可以解决
+             通过<constructor-arg标签实现构造器注入
+             name：属性字段名称
+             ref：属性字段的名称
+             value：具体的值
+             index：
+             -->
+    <bean id="TypeService" class="org.example.service.TypeService">
+        <constructor-arg name="typeDao" ref="TypeDao" index="0"></constructor-arg>
+        <constructor-arg name="host" value="localhost" index="1"></constructor-arg>
+        <constructor-arg name="port" value="8989" index="2"></constructor-arg>
+    </bean>
+
+
+    <!--
+        用于讲解构造器注入方法的缺点
+    -->
+    <bean id="ResourceService" class="org.example.service.ResourceService">
+        <!-- 构造器注入 -->
+       <!-- <constructor-arg name="testService" ref="TestService"></constructor-arg>-->
+        <!-- set方法注入 -->
+        <property name="TestService" ref="TestService"></property>
+    </bean>
+    <bean id="TestService" class="org.example.service.TestService">
+        <!-- 构造器注入 -->
+        <!--<constructor-arg name="ResourceService" ref="ResourceService"></constructor-arg>-->
+        <!-- set方法注入 -->
+        <property name="resourceService" ref="ResourceService"></property>
+    </bean>
+
+
+</beans>

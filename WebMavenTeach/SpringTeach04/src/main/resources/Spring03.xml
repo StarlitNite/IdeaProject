@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+         SpringIOC 扫描器
+            作用：
+                可以对Bean对象进行统一的管理，简化的配置信息，提高开发效率
+            使用：
+                1.在配置文件中开启自动扫描，设置扫描包范围(引入context命名空间)
+                2.在需要进行实例化的Bean对象上，添加指定的注解 (声明在类级别，bean对象的id属性默认是 类的首字母小写)
+                    Controller层：（控制层）
+                        @Controller
+                    Service层：（业务逻辑层）
+                        @Service
+                    Dao层：（数据访问层）
+                        @Repository
+                    任意类：
+                        @Component
+                    注：开发过程中建议按照制定规则声明注解
+    -->
+
+   <!-- 开启自动扫描 设置扫描包的范围-->
+    <context:component-scan base-package="org.example"></context:component-scan>
+
+</beans>

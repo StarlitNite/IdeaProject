@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <script type="text/javascript" src="/Script/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+    //验证用户名
+    $(function (){
+        //给注册绑定单击事件
+        $("#sub_btn").click(function (){
+            var usernameText = $("#username").val();
+            var usernamePatt = /^\w{5,12}$/;
+            if(!usernamePatt.test(usernameText)){
+                $("span.errorMsg").text("用户名不合法！");
+
+                return false;
+            }
+
+            $("span.errorMsg").text("");
+
+        })
+        //验证密码 ：必须由字母、数字及下划线组成，并且长度为5到12位
+        //1获取用户输入框中的内容
+        var passwordText = $("#password").val();
+        var passwordPatt = /^\w{5,12}$/;
+        if(!passwordPatt.test(passwordText)){
+            $("span.errorMsg").text("密码不合法");
+
+            return false;
+        }
+        $("span.errorMsg").text("");
+        //验证确认密码
+        var repasswordText = $("#repassword").val();
+        if(repasswordText != passwordText){
+            $("span.errorMsg").text("确认密码和密码不一致！")
+
+            return false;
+        }
+        $("span.errorMsg").text("");
+        //验证邮箱
+        var emailText = $("#email").val();
+        var emailPatt = /^[a-z\d]+(\.[a-z\d]+)*@([\da-z](-[\da-z])?)+(\.{1,2}[a-z]+)+$/
+
+        if(!emailPatt.test(emailText)){
+            $("span.errorMsg").text("邮箱格式不合法！")
+
+            return false;
+        }
+        $("span.errorMsg").text("");
+        //验证码
+        var codeText = $("#code").val();
+        //去除验证码前后的空格
+        codeText = $.trim(codeText);
+        if(codeText == null || codeText == ""){
+            $("span.errorMsg").text("验证码不能为空！")
+            return false;
+        }
+        $("span.errorMsg").text("");
+    })
+
+
+    </script>
+</head>
+<body>
+<h2>注册功能</h2>
+<div id="l_content">
+    <span class="login_word">欢迎注册</span>
+    <br />
+    <br />
+</div>
+<div class="form">
+
+    <form action="http://localhost:8080" method="post">
+        <label>用户名称：</label> <input type="text" name="username" id="username" /><span class="errorMsg"></span>
+        <br />
+        <br />
+        <label>密码：</label><input type="password" name="password" id="password" />
+        <br />
+        <br />
+        <label>确认密码：</label><input type="password" name="repassword" id="repassword" />
+        <br />
+        <br />
+        <label>邮箱：</label><input type="text" name="email" id="email" />
+        <br />
+        <br />
+        <label>验证码：</label><input type="text" name="code" id="code" />
+        <br />
+        <br />
+        <input type="submit" value="注册" id="sub_btn" />
+    </form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        var arr = [];
+        alert(arr.length);//0
+        arr[0]=12;
+        alert(arr[0]);
+        alert(arr.length);//0
+
+        //Javascript语言中的数组，只要我们通过数组下标赋值，最大的下标值，就会自动给数组做扩容操作。
+        arr[2] ="abc";
+        alert((arr.length));//3
+
+        alert(arr[1]);//undefined
+
+        for (var i=0;i<arr.length;i++){
+            alert(arr[i]);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

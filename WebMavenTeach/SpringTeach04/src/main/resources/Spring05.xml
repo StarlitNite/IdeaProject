@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--
+        Bean对象的作用域与生命周期
+            Bean对象的作用域
+                1.单例作用域(singleton作用域)
+                    Spring容器启动时会实例化Bean对象，并将对象设置到单例缓存池中，下次获取时直接从缓存池中获取
+                    scope="singleton"   默认情况下，Spring容器中加载的Bean对象都是单例
+
+                    lazy-init属性
+                        表示懒加载，默认是false
+                        如果值为true，则表示容器在启动时不会自动实例化Bean对象，而是在程序调用时才实例化Bean对象
+                        如果为false，则表示容器在启动时自动实例化Bean对象
+                    为什么lazy-init属性要设置false
+                        1.可以提前发现配置的潜在问题
+                        2.Bean对象存在于缓存中，使用时不用再去实例化Bean，加快程序运行效率
+                    什么对象适合作为单例
+                        一般来说对于无状态或者状态不可改变的对象适合使用单例模式（不存在会改变对象状态的成员变量）
+                        比如：controller层，service层，dao层
+                    什么是无状态或状态不可改变的对象？
+                        对象中不存在会改变当前对象的状态的成员变量
+                2.原型作用域
+                    Spring容器启动时会实例化Bean对象，不会将对象设置到单例缓存池中，每次请求都会重新创建一个新的Bean对象。
+                    scope="prototype"
+
+            Bean的生命周期
+                在Spring容器中，Bean的生命周期分为四个阶段：Bean定义，Bean初始化，Bean的使用，Bean的销毁
+
+                阶段一：Bean的定义
+                    在配置文件中定义bean标签，设置对应的id与class属性值
+                阶段二：Bean初始化
+                    在Spring容器中，默认容器启动时实例化Bean对象
+                    Spring查看实例化的两种方式：
+                        1.在bean标签上设置init-method属性，属性值对应Bean对象中的方法，当bean对象实例化时，方法会被调用
+                        2.实现org.springframework.beans.factory.InitializingBean 接口，接口中的方法会在Bean对象实例化时调用
+                阶段三：Bean的使用
+                    常用的两种使用方式：
+                        1.ApplicationContext ac = new ClassPathXmlApplicationContext("配置文件");
+                            ac.getBean("id属性值"）
+                        2.BeanFactory factory = new ClassPathXmlApplicationContext("配置文件");
+                            factory.getBean("id属性值"）
+                阶段四：Bean的销毁
+                    实现销毁方式（Spring容器会维护bean对象的管理，可以指定bean对象的销毁所要执行的方法）
+                    通过AbstractApplicationContext对象，调用其close方法实现bean的销毁过程
+                    通过在bean标签上设置destory-method方法，查看销毁时机
+                    设置destory-method属性，指定Bean对象销毁时调用的方法
+
+     -->
+    <!-- 设置destroy-method属性，指定Bean对象销毁时调用的方法 -->
+        <bean id="AccountDao" class="org.example.Dao.AccountDao" destroy-method="destroy"></bean>
+
+
+
+    <!-- 单例作用域 -->
+    <!-- 设置scope="singleton" 单例作用域 -->
+    <!-- 设置init-method属性，当Bean对象被实例化时，调用的方法 -->
+    <!-- 设置lazy-init属性，true为懒加载，false为不懒加载 -->
+       <!-- <bean id="AccountDao" class="org.example.Dao.AccountDao" scope="singleton" init-method="test" lazy-init="false"></bean>-->
+    <!-- 原型作用域 -->
+     <!--   <bean id="AccountDao" class="org.example.Dao.AccountDao" scope="prototype"></bean>-->
+
+</beans>

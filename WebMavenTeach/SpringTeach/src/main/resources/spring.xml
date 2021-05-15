@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        定义bean对象
+            id    bean对象的唯一标识符
+            class bean对象（需要被实例化的对象）的全路径  包名+类名
+    -->
+    <bean id="userService" class="org.example.service.UserService"></bean>
+
+
+
+
+</beans>

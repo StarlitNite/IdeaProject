@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="Script/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+        $(function (){
+            $("#sub_btn").click(function (){
+                var usernameText = $("#username").val();
+                var usernamePatt = /^\w{5,12}$/;
+                if (!usernamePatt.test(usernameText)){
+                    $("span.errorMsg").text("用户名不合法");
+                    return false;
+                }
+                $("span.errorMsg").text("");
+            })
+            //验证密码
+
+            var passwordText = $("#password").val();
+            var passwordPatt = /^\w{5,12}$/;
+            if (!passwordPatt.test(passwordText)){
+                $("span.errorMsg").text("密码不合法");
+                return false;
+            }
+            $("span.errorMsg").text("");
+        })
+    </script>
+</head>
+<body>
+
+    <div class="form">
+        <form action="LoginServlet" method="get">
+<!--               账号：<input type="text" name="ID" id="ID">-->
+        <label>用户名称：</label> <input type="text" name="username" id="username" /><span class="errorMsg"></span>
+        <br />
+        <br />
+        <label>密码：</label><input type="password" name="password" id="password" />
+        <br />
+        <br />
+        <input type="submit" value="登录"  id="sub_btn" />
+        <input type="reset" value="重置" id="re_btn" />
+        <input type="button" value="注册" onclick="javascript:window.location.href='Register.html'"></input>
+        <!--       <button id="Log_btn" value="注册">注册</button>-->
+        </form>
+    </div>
+
+</body>
+</html>

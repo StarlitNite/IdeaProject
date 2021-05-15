@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ServletTeach:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ServletTeach</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ServletTeach-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ServletTeach:war exploded" />
+    </root>
+  </artifact>
+</component>
