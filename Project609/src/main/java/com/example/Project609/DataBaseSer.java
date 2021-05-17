@@ -39,7 +39,7 @@ public class DataBaseSer extends HttpServlet {
                 response.getWriter().println("<td>"+rs.getString("password")+"</td>");
                 response.getWriter().println("<td>"+rs.getString("address")+"</td>");
                 response.getWriter().println("<td>"+rs.getString("tel")+"</td>");
-                response.getWriter().print("<td><a href='modUser?username=,tel=,address'>修改</a>&nbsp;<a href='delUser?userId="+rs.getInt("id")+"'>删除</a></td>");
+                response.getWriter().print("<td><a href='updUser?userId="+rs.getInt("id")+"'>修改</a>&nbsp;<a href='delUser?userId="+rs.getInt("id")+"'>删除</a></td>");
                 response.getWriter().print("</tr>");
                 i++;
             }
