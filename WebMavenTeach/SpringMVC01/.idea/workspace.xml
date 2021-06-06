@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SpringMVC01:war" />
+      <artifact name="SpringMVC01:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42d1cbb6-c2e1-4c6b-92ac-871facbedd6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/out/production/Control/Control.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/Turkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/WildTurkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/command.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/command/view/LightView2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/out/production/command/command.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/FoodType/AddFoodType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/FoodType/FoodTypeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/webapp/AddFoodType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/webapp/FoodType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/SpringMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/src/main/java/com/example/springmvc/controller/controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/src/main/resources/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/src/main/webapp/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringMVC01/Dao/HelloDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/SpringMVC01/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/SpringMVC01/Dao/HelloDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/SpringMVC01/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/LightOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/LightOffCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/LightOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/LightOnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/RemoteCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/RemoteCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/DataBaseSer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/User/DataBaseSer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/Log_Reg/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/Log_Reg/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/dealUpdUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/User/dealUpdUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/delUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/User/delUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/regServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/Log_Reg/regServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/updUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/User/updUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/target/Project609-1.0-SNAPSHOT/WEB-INF/classes/com/example/Project609/DataBaseSer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/target/Project609-1.0-SNAPSHOT/WEB-INF/classes/com/example/Project609/DataBaseSer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/target/classes/com/example/Project609/DataBaseSer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/target/classes/com/example/Project609/DataBaseSer.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Study\Code\m2\repository" />
+        <option name="mavenHome" value="D:/Study/apache-maven-3.8.1-bin/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\Study\apache-maven-3.8.1-bin\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sqAV2kfKN1shn1MWEU7gnTvRyB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring_Mybatis" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.14938271" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.grazie" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Wu\IdeaProjects\WebMavenTeach\SpringMVC01\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Wu\IdeaProjects\WebMavenTeach\SpringMVC01\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.Tomcat">
+    <configuration name="Tomcat" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="jetty" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SpringMVC01_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SpringMVC01:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SpringMVC01_war" />
+          </settings>
+        </artifact>
+        <artifact name="SpringMVC01:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SpringMVC01_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="52fd0903-cf76-40b4-a4a5-b55bb05d092c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65294" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringMVC01:war" />
+          <artifact name="SpringMVC01:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.jetty" />
+      <item itemvalue="Maven.Tomcat" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.31" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42d1cbb6-c2e1-4c6b-92ac-871facbedd6d" name="Default Changelist" comment="" />
+      <created>1621589767458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621589767458</updated>
+      <workItem from="1621589768902" duration="1161000" />
+      <workItem from="1621590962993" duration="8413000" />
+      <workItem from="1621646460426" duration="3614000" />
+      <workItem from="1621745586397" duration="193000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

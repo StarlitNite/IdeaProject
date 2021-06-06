@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba61f258-2a2c-4736-8e18-aae26d860290" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/Util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/AdUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/DelCom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/DelNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/DelUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/GetSea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/GetUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/InsCom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/InsNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/Reg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/UpdAdUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/UpdCom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/UpdNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/java/com/xxxx/example/Controller/UpdUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/webapp/View/Log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/webapp/View/Main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/webapp/View/Reg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/webapp/View/Sea.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1/src/main/webapp/View/User.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MVC_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/AddfoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/FoodListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Controll/AddFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Controll/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Controll/FoodList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Controll/ServletLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/FoodListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/foodTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/addFood.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servise/FoodTypeservise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servise/Foodservise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servise/Loginservise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/AddfoodController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/FoodListController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servise/FoodTypeservise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servise/Foodservise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servise/Loginservise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/util/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/lib/taglibs-standard-compat-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/addfood.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/foodlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jiachang/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jiachang/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jiachang/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jiachang/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jiachang/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jiachang/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jiachang/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jiachang/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jiachang/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/jiachang/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/liangcai/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/liangcai/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/liangcai/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/liangcai/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/liangcai/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/liangcai/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/liangcai/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/liangcai/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/liangcai/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/liangcai/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yinpin/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yinpin/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yinpin/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yinpin/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yinpin/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yinpin/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yinpin/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yinpin/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yinpin/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/yinpin/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/zhushi/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/zhushi/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/zhushi/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/zhushi/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/zhushi/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/zhushi/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/zhushi/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/zhushi/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/zhushi/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/zhushi/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/Web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/.idea/dataSources/bbe5d5ae-1f11-4a32-8da1-45b7ef896a13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/.idea/dataSources/bbe5d5ae-1f11-4a32-8da1-45b7ef896a13/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/.idea/dataSources/bbe5d5ae-1f11-4a32-8da1-45b7ef896a13/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/.idea/dataSources/bbe5d5ae-1f11-4a32-8da1-45b7ef896a13/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/.idea/dataSources/bbe5d5ae-1f11-4a32-8da1-45b7ef896a13/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/.idea/libraries/Maven__org_mybatis_mybatis_3_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/src/main/java/com/example/WebProject/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/src/main/java/com/example/WebProject/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/src/main/java/com/example/WebProject/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/src/main/java/com/example/WebProject/utils/MyBatisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebProject/src/main/resources/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chap05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Chap05/Chap05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/-Course-Design-Assignment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coffee/Coffee.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coffee/src/template/caff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coffee/src/template/coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coffee/src/template/tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coffee/src/template/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/.reverse.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/Coke.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/agent/Agent$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/agent/Agent$SingletonInstance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/agent/Agent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/agent/AgentFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/agent/DeliverGoods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/agent/DeliverMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/agent/Express.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/agent/Tradition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/coke.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/coke.umldi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/coke/Coca_Cola.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/coke/Coca_ColaFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/coke/Coke.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/coke/CokeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/coke/Pepsi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/coke/PepsiFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/company/Coca_ColaCompany$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/company/Coca_ColaCompany$SingletonInstance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/company/Coca_ColaCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/company/PepsiCompany$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/company/PepsiCompany$SingletonInstance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/company/PepsiCompany.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/customer/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/customer/OrderBuidler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/main/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/message/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/bin/message/Recipient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/agent/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/agent/AgentFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/agent/DeliverGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/agent/DeliverMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/agent/Express.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/agent/Tradition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/coke.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/coke.umldi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/coke/Coca_Cola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/coke/Coca_ColaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/coke/Coke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/coke/CokeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/coke/Pepsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/coke/PepsiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/company/Coca_ColaCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/company/PepsiCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/customer/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/customer/OrderBuidler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/main/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Coke/src/message/Recipient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/out/production/Control/Control.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/DesignPattern" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/Turkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/adpter/WildTurkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/command.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/command/view/LightView2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/command/out/production/command/command.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/doujiang/doujiang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/doujiang/src/Gum/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/doujiang/src/Sova/NutSovaMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/doujiang/src/Sova/PureSovaMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/doujiang/src/Sova/ReddatesSovaMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/原博.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/实验报告.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/auto_sale.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$add_item_Listener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$add_meatListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$buy_orderListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$open_machineListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$repairListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Client_add_item$repairListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Client_add_item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Cola_Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Cola_add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Item_Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Milk_add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Milk_factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/uml.umr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Client_add_meat$repairListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Client_add_meat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Meal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/MealBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Meat_A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Meat_B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/uml.umr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/buy_order/Order_No.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/buy_order/uml.umr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Client_Control$closeListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Client_Control$openListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Client_Control.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Light.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Main_Swicth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Net_control.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Screen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/uml.umr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Advance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Client_repair$repairListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Client_repair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv1_Machinic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv2_Machinic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv3_Machinic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv4_Machinic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Repair_Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/uml.umr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/Test/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_item/Client_add_item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_item/Cola_Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_item/Cola_add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_item/Item_Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_item/Milk_add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_item/Milk_factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_item/uml.umr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_meat/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_meat/Client_add_meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_meat/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_meat/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_meat/Meat_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_meat/Meat_B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_meat/uml.umr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/buy_order/Order_No.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/buy_order/uml.umr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/open_machine/Client_Control.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/open_machine/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/open_machine/Main_Swicth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/open_machine/Net_control.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/open_machine/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/open_machine/uml.umr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/repair/Advance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/repair/Client_repair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/repair/Lv1_Machinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/repair/Lv2_Machinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/repair/Lv3_Machinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/repair/Lv4_Machinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/repair/Repair_Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/自动贩卖机系统_20200817_155113/自动贩卖机系统/src/repair/uml.umr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/FoodType/AddFoodType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/FoodType/FoodTypeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/java/util/DBUtil - 副本 (2).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/java/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/webapp/AddFoodType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/webapp/First.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/webapp/FoodType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/webapp/JSTL.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/webapp/WEB-INF/lib/taglibs-standard-compat-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/webapp/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/webapp/WEB-INF/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project609/src/main/webapp/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/Learn/src/main/java/com/example/learn/controller/controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/Learn/src/main/java/com/example/learn/start/starter01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/Mybatis/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/Mybatis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/Mybatis/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/Mybatis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/Mybatis/MyBatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/Mybatis/src/Mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/Mybatis/src/com/xxxx/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/Mybatis/src/com/xxxx/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/SpringMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/src/main/java/com/example/springmvc/controller/controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/src/main/resources/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/src/main/webapp/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/SpringMVC01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/src/main/java/com/example/SpringMVC01/Dao/HelloDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/src/main/java/com/example/SpringMVC01/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/src/main/resources/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/src/main/webapp/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/target/classes/com/example/SpringMVC01/Dao/HelloDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/target/classes/com/example/SpringMVC01/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/target/classes/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebMavenTeach/SpringMVC01/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/dataSources/da11eff9-f0c1-4c26-a2f7-fec8a548783f.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/dataSources/da11eff9-f0c1-4c26-a2f7-fec8a548783f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/libraries/mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/libraries/taglibs_standard_compat_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/libraries/taglibs_standard_jstlel_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/libraries/taglibs_standard_spec_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/scopes/scope_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/classes/controller/AddfoodController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/classes/controller/FoodListController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/classes/servise/FoodTypeservise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/classes/servise/Foodservise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/classes/servise/Loginservise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/classes/util/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/lib/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/lib/lib/taglibs-standard-compat-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/lib/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/lib/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/lib/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/lib/taglibs-standard-compat-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/addfood.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/foodlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/jiachang/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/jiachang/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/jiachang/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/jiachang/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/jiachang/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/jiachang/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/jiachang/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/jiachang/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/jiachang/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/jiachang/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/liangcai/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/liangcai/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/liangcai/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/liangcai/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/liangcai/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/liangcai/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/liangcai/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/liangcai/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/liangcai/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/liangcai/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/yinpin/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/yinpin/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/yinpin/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/yinpin/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/yinpin/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/yinpin/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/yinpin/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/yinpin/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/yinpin/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/yinpin/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/zhushi/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/zhushi/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/zhushi/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/zhushi/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/zhushi/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/zhushi/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/zhushi/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/zhushi/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/zhushi/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/images/zhushi/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/out/artifacts/web_war_exploded/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/src/controller/AddfoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/src/controller/FoodListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/src/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/src/servise/FoodTypeservise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/src/servise/Foodservise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/src/servise/Loginservise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/src/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/classes/controller/AddfoodController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/classes/controller/FoodListController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/classes/servise/FoodTypeservise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/classes/servise/Foodservise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/classes/servise/Loginservise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/classes/util/DBUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/lib/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/lib/lib/taglibs-standard-compat-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/lib/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/lib/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/lib/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/addfood.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/foodlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/jiachang/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/jiachang/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/jiachang/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/jiachang/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/jiachang/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/jiachang/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/jiachang/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/jiachang/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/jiachang/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/jiachang/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/liangcai/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/liangcai/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/liangcai/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/liangcai/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/liangcai/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/liangcai/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/liangcai/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/liangcai/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/liangcai/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/liangcai/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/yinpin/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/yinpin/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/yinpin/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/yinpin/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/yinpin/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/yinpin/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/yinpin/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/yinpin/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/yinpin/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/yinpin/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/zhushi/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/zhushi/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/zhushi/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/zhushi/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/zhushi/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/zhushi/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/zhushi/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/zhushi/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/zhushi/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/images/zhushi/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mvc/web/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebProject/.idea/artifacts/WebProject_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebProject/.idea/artifacts/WebProject_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebProject/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebProject/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebProject/WebProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebProject/WebProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebProject/src/main/webapp/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebProject/src/main/webapp/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebProject/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebProject/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/LightOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/LightOffCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/LightOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/LightOnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/RemoteCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/RemoteCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOAD-2021-4-1/Control/Control/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/.idea/artifacts/Project609_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/.idea/artifacts/Project609_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/Project609.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/Project609.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/DataBaseSer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/User/DataBaseSer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/Log_Reg/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/Log_Reg/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/dealUpdUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/User/dealUpdUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/delUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/User/delUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/regServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/Log_Reg/regServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/updUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/src/main/java/com/example/Project609/User/updUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/target/Project609-1.0-SNAPSHOT/WEB-INF/classes/com/example/Project609/DataBaseSer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project609/target/Project609-1.0-SNAPSHOT/WEB-INF/classes/com/example/Project609/DataBaseSer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/target/classes/com/example/Project609/DataBaseSer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/target/classes/com/example/Project609/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/target/classes/com/example/Project609/RegisterServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/target/classes/com/example/Project609/delUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project609/target/classes/com/example/Project609/regServlet.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Study\Code\m2\repository" />
+        <option name="mavenHome" value="D:/Study/apache-maven-3.8.1-bin/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\Study\apache-maven-3.8.1-bin\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tHRNMwEpVJHrtvJWT5Xe2T6X72" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mvc" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Wu\IdeaProjects\19001020609\MVC\src\main\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Wu\IdeaProjects\19001020609\MVC\src\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba61f258-2a2c-4736-8e18-aae26d860290" name="Default Changelist" comment="" />
+      <created>1622423988563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622423988563</updated>
+      <workItem from="1622423990062" duration="1180000" />
+      <workItem from="1622592279868" duration="10680000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

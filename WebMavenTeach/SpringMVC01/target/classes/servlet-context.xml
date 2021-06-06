@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+       https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!-- 扫描器 -->
+    <context:component-scan base-package="com.example.SpringMVC01.controller"/>
+
+    <!-- 开启注释驱动 -->
+    <mvc:default-servlet-handler/>
+
+    <!-- 配置视图解析器 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          id="internalResourceViewResolver">
+        <!-- 前缀：在WEB—INF目录下的jsp目录下 -->
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <!-- 后缀：以.jsp结尾的资源 -->
+        <property name="suffix" value=".jsp"/>
+
+    </bean>
+
+    <!-- 开启自动注入 -->
+    <context:annotation-config></context:annotation-config>
+</beans>
