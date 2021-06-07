@@ -11,6 +11,22 @@
     <title>个人中心</title>
 </head>
 <body>
+    <div >
+        <a href="Main.jsp">主页面</a>
+        <a href="">修改个人资料</a>
+        <a href="">退出</a>
+    </div>
 
+    <div>
+        <table border="1">
+            <tr>
+                <td>用户名</td>
+                <td>电话</td>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+    </div>
 </body>
 </html>

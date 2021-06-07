@@ -1,0 +1,12 @@
+Team1:
+	StudentName				StudentId
+
+	Ïîxxx         £¨TeamLeader£©		1xxx
+	
+	xxx					1xxx
+
+	xxx					1xxx
+
+	xxx					1xxx
+
+	

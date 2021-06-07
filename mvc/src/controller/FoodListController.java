@@ -26,7 +26,9 @@ public class FoodListController extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
 
-        List<Map<String,String>> foods=fs.getFoodList();
+        String foodname = request.getParameter("foodname");
+
+        List<Map<String,String>> foods=fs.getFoodList(foodname);
         request.setAttribute("foodlist",foods);
 
         List<Map<String,String>> typelist=fts.getFoodTypeList();

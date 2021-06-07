@@ -11,8 +11,19 @@
     <title>首页</title>
 </head>
 <body>
+<form action=""></form>
 
+<%--首页 --%>
+<hr size="1">
 <div>
+    <div align="right">
+
+        <a href="">查看我的点餐</a>
+        <a href="">修改个人资料</a>
+        <a href="">退出点餐系统</a>
+    </div>
+<h2>成功！</h2>
+
 
 </div>
 </body>

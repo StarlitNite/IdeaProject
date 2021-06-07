@@ -1095,13 +1095,13 @@ NewsGroupID</ColNames>
       <NotNull>1</NotNull>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="311" parent="290" name="UserPassword">
+    <column id="311" parent="290" name="Password">
       <Position>3</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="312" parent="290" name="UserTel">
+    <column id="312" parent="290" name="Tel">
       <Position>4</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>

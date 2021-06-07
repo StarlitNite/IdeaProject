@@ -26,9 +26,11 @@ public class LogController extends HttpServlet {
             if(UserName.equals("admin")){//如果用户名为admin则为管理员
                 request.getRequestDispatcher("").forward(request, response);//跳转到管理界面
             }else {//否则就是普通用户
-                request.getRequestDispatcher("Main.jsp");//跳转到主页面
+                request.getRequestDispatcher("Main.jsp").forward(request, response);//跳转到主页面
             }
             /*request.setAttribute("result",result);*/
+        }else {
+            response.getWriter().println("登录失败");
         }
     }
 

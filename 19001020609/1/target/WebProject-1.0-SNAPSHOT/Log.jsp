@@ -10,20 +10,12 @@
 <head>
     <title>登录</title>
 </head>
-<style>
-    .div{width: auto;height: auto;background: url("./image/Log.png") no-repeat;}
-</style>
-<div class="div">
-    <h1><p style="text-align: center ;color: red">欢迎登录学习强国平台</p></h1>
-
-</div>
 <body>
-<%--<div>
+<div>
     <img src="./image/Log.png">
     <h1 style="text-align: center ;color: red">欢迎登录学习强国平台</h1>
-
-</div>--%>
-<hr size="1" color="black">
+    <hr size="1" color="black">
+</div>
 <div align="center">
     <form action="LogController" method="post">
         <table style="margin: 0px auto">
