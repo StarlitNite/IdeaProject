@@ -7,344 +7,226 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3244ca7c-edda-4f6e-88ed-8d993e3a1913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/RegModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/RegController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/AdUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Script/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.idea/artifacts/shuang_yu_xiangmu_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.settings/.jsdtscope" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.settings/org.eclipse.wst.common.component" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/aopalliance.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/jackson-core-asl-1.9.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/jackson-databind-2.1.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/jackson-mapper-asl-1.9.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/mybatis-3.2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/mysql-connector-java-5.1.36.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aop-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aop-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aop-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aop-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aop-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aop-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aspects-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aspects-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aspects-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aspects-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aspects-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-aspects-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-beans-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-beans-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-beans-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-beans-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-beans-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-beans-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-build-src-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-support-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-support-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-support-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-support-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-support-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-context-support-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-core-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-core-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-core-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-core-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-core-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-core-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-expression-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-expression-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-expression-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-expression-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-expression-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-expression-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-tomcat-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-tomcat-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-tomcat-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-tomcat-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-tomcat-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-instrument-tomcat-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jdbc-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jdbc-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jdbc-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jdbc-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jdbc-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jdbc-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jms-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jms-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jms-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jms-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jms-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-jms-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-messaging-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-messaging-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-messaging-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-orm-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-orm-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-orm-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-orm-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-orm-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-orm-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-oxm-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-oxm-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-oxm-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-oxm-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-oxm-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-oxm-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-struts-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-struts-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-struts-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-test-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-test-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-test-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-test-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-test-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-test-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-tx-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-tx-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-tx-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-tx-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-tx-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-tx-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-web-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-web-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-web-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-web-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-web-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-web-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-portlet-3.2.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-portlet-3.2.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-portlet-3.2.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-portlet-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-portlet-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-webmvc-portlet-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-websocket-4.3.11.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-websocket-4.3.11.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/lib/spring-websocket-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/DiamondMember.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/DiamondMemberdingdan.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/DiamondPackage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/GoldMember.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/GoldMemberdingdan.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/GoldPackage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/PlatinumMember.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/PlatinumMemberdingdan.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/PlatinumPackage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/boss.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/box.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/cancle.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/cancle_no.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/chakanzhangben.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/evaluate.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/evaluate_no.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/first.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/modify_no.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/query.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/query_no.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/views/show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/css/component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/css/swipebox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/js/jquery.swipebox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/js/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/WebContent/js/wow.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/shuang_yu_xiangmu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/celuemoshi_huiyuanzhi/DiamondMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/celuemoshi_huiyuanzhi/DiamondUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/celuemoshi_huiyuanzhi/GoldMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/celuemoshi_huiyuanzhi/GoldUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/celuemoshi_huiyuanzhi/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/celuemoshi_huiyuanzhi/PlatinumMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/celuemoshi_huiyuanzhi/PlatinumUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/celuemoshi_huiyuanzhi/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/controller/BossController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/controller/DiamondMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/controller/GoldMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/controller/PlatinumMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/fangwenzhemoshi_kandanzi/AccountBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/fangwenzhemoshi_kandanzi/AccountBookViewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/fangwenzhemoshi_kandanzi/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/fangwenzhemoshi_kandanzi/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/fangwenzhemoshi_kandanzi/CPA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/fangwenzhemoshi_kandanzi/ConsumeBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/fangwenzhemoshi_kandanzi/IncomeBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/gongchangmoshi_box/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/gongchangmoshi_box/BoxFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/gongchangmoshi_box/erhaoxiang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/gongchangmoshi_box/sanhaoxiang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/gongchangmoshi_box/yihaoxiang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/qiaojiemoshi_yunshufangshi/AirTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/qiaojiemoshi_yunshufangshi/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/qiaojiemoshi_yunshufangshi/LandTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/qiaojiemoshi_yunshufangshi/SfTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/qiaojiemoshi_yunshufangshi/Stotransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/qiaojiemoshi_yunshufangshi/TransportType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/qiaojiemoshi_yunshufangshi/ZtoTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangshizhemoshi_dingdan/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangshizhemoshi_dingdan/BasicInpormation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangshizhemoshi_dingdan/BoxType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangshizhemoshi_dingdan/DeliveryForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangshizhemoshi_dingdan/FillDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangshizhemoshi_dingdan/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangshizhemoshi_dingdan/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangtaimoshi_kuaidizhuangtai/IntransitState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangtaimoshi_kuaidizhuangtai/SignedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangtaimoshi_kuaidizhuangtai/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangtaimoshi_kuaidizhuangtai/UnsendState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/src/zhuangtaimoshi_kuaidizhuangtai/packagee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/CODES/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/Class Diagrams/工厂模式：盒子生产.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/Class Diagrams/桥接模式：运输方式.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/Class Diagrams/状态模式：快递状态.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/Class Diagrams/策略模式：会员制.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/Class Diagrams/装饰者模式：填快递单.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/Class Diagrams/访问者模式：看账单.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/Delivery Manager System.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/SRS.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/Team Member.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo1/demo1/Team7.C17003/program demo.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/CakeCustomizationSystem.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/Team1_PPT.ppt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/Team1_Wiki.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/Team1_members_C17xxx.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/Team1_video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/类图.astah/FacadePattern.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/类图.astah/FactoryMethodPattern.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/类图.astah/ObserverPattern.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/类图.astah/ObserverPattern.asta.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/类图.astah/ProxyPattern.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/类图.astah/SimpleFactoryFruitCake.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/类图.astah/SimpleFactoryFruitCake.asta.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/类图.astah/SimpleFactoryMilkCake.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/类图.astah/StrategePattern.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo2/demo2/Team1_17xxx项xx/类图.astah/StrategePattern.asta.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/CODES.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/__MACOSX/dangao/._EastVilla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/creator/MakeCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/creator/MakeChocolateCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/creator/MakeFruityCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/creator/MakeMilkCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/discount/DiscountStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/discount/DiscountStyleOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/discount/DiscountStyleThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/discount/DiscountStyleTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/discount/OrderCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/jdbc/JDBCFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/order/CakeShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/order/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/order/EastVilla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/order/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/order/WestVilla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/ChocolateCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/ChocolateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/DarkChocolateCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/DoubleMilkCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/FruitFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/FruityCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/GrapeCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/MilkCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/MilkChocolateCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/MilkFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/StrawberryCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/product/SweetMilkCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/CODES/dangao/net/xsl/ordercake/test/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/Cake ording system.ppt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/SRS.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/TeamMember.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/class diagrams.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/demo3/demo3/Team7.C17009/program demo.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project609/src/main/java/com/example/Project609/servlet/DealUpdUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project609/src/main/java/com/example/Project609/servlet/GetUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project609/src/main/java/com/example/Project609/servlet/Reg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project609/src/main/java/com/example/Project609/servlet/UpdUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project609/src/main/java/com/example/Project609/servlet/delUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/DealAddFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/DeleteFoodController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/Encoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/Util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/Util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/java Swing mysql实现简单的购物系统项目源码.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/java Swing mysql实现简单的购物系统项目源码.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/mysql驱动/mysql-connector-java-3.1.12-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/dao/CustomerUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/dao/ManagerUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/dao/ProductChosenDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/dao/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/dao/ProductTypeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/model/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/model/ManagerUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/model/ProductType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/util/Dbutil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/CustomerAddInterFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/CustomerAddInterFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/CustomerLogOnFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/CustomerLogOnFrm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/CustomerLogOnFrm$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/CustomerLogOnFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/CustomerLogOnInterFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/CustomerLogOnInterFrm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/CustomerLogOnInterFrm$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/CustomerLogOnInterFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/FuntionMainFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/FuntionMainFrm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/FuntionMainFrm$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/FuntionMainFrm$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/FuntionMainFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/MainFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/MainFrm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/MainFrm$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/MainFrm$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/MainFrm$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/MainFrm$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/MainFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ManagerLogOnFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ManagerLogOnFrm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ManagerLogOnFrm$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ManagerLogOnFrm$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ManagerLogOnFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductAddInterFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductAddInterFrm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductAddInterFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductBuyInterFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductBuyInterFrm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductBuyInterFrm$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductBuyInterFrm$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductBuyInterFrm$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductBuyInterFrm$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductBuyInterFrm$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductBuyInterFrm$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductBuyInterFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductManageInterFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductManageInterFrm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductManageInterFrm$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductManageInterFrm$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductManageInterFrm$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductManageInterFrm$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductManageInterFrm$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductManageInterFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductTypeInterFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductTypeInterFrm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductTypeInterFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductTypeManageInterFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductTypeManageInterFrm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductTypeManageInterFrm$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductTypeManageInterFrm$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductTypeManageInterFrm$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ProductTypeManageInterFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ViewMainFrm$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ViewMainFrm$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ViewMainFrm$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ViewMainFrm$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/bin/com/view/ViewMainFrm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/bookManager.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/bookTypeManager.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/manager.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/modify.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/product manager.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/reset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/shopadd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/images/userName.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/lib/AbsoluteLayout.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/lib/mysql-connector-java-3.1.12-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/lib/swing-layout-1.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/shopManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/dao/CustomerUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/dao/ManagerUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/dao/ProductChosenDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/dao/ProductTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/model/ManagerUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/model/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/util/Dbutil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/CustomerAddInterFrm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/CustomerAddInterFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/CustomerLogOnFrm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/CustomerLogOnFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/CustomerLogOnInterFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/FuntionMainFrm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/FuntionMainFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/MainFrm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/MainFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ManagerLogOnFrm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ManagerLogOnFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ProductAddInterFrm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ProductAddInterFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ProductBuyInterFrm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ProductBuyInterFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ProductManageInterFrm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ProductManageInterFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ProductTypeInterFrm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ProductTypeInterFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ProductTypeManageInterFrm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ProductTypeManageInterFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ViewMainFrm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager/src/com/view/ViewMainFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/图片1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/图片10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/图片2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/图片3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/图片4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/图片5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/图片6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/图片7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/图片8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/图片9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/购物车系统.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/Coffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/CoffeeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/ColdDrink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/Decoratro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/Drink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/HotCoffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/JuiceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/Modle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/NoStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/Prepare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/WellPrepared.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/juice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/suger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/tea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/bin/java_object/text2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/java_object.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/CoffeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/ColdDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/Decoratro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/HotCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/JuiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/Modle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/NoStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/Prepare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/WellPrepared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/juice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/suger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/java_object/src/java_object/text2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/购物系统项目(文档+视频+源码).zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Reg.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/User.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/User.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Log.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Log.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Reg.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/User.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/User.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/WEB-INF/classes/com/xxxx/example/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/WEB-INF/classes/com/xxxx/example/controller/LogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/target/classes/com/xxxx/example/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/classes/com/xxxx/example/controller/LogController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOAD-2021-4-1/-Course-Design-Assignment" beforeDir="false" afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/-Course-Design-Assignment" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project609/src/main/webapp/Script/jquery-1.7.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Script/jquery-1.7.2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/FoodListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/FoodListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servise/Foodservise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servise/Foodservise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/controller/FoodListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/controller/FoodListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/servise/Foodservise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/WEB-INF/classes/servise/Foodservise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/foodlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/foodlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/web_war_exploded/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/web_war_exploded/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/controller/FoodListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/controller/FoodListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/servise/Foodservise.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servise/Foodservise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/addfood.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addfood.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/foodlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/foodlist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/result.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/result.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -463,7 +345,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project609" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OOAD-2021-4-1/java Swing mysql实现简单的购物系统项目源码/shopManager" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -481,6 +363,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
       <deployment>
@@ -517,6 +410,21 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -599,6 +507,7 @@
       <workItem from="1622942001628" duration="7176000" />
       <workItem from="1623024328583" duration="5322000" />
       <workItem from="1623066115414" duration="2417000" />
+      <workItem from="1623121044686" duration="10418000" />
     </task>
     <servers />
   </component>

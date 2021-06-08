@@ -6,15 +6,15 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>个人中心</title>
 </head>
 <body>
-    <div >
+    <div align="right">
         <a href="Main.jsp">主页面</a>
-        <a href="">修改个人资料</a>
-        <a href="">退出</a>
+        <a href="Log.jsp">退出</a>
     </div>
 
     <div>
@@ -24,7 +24,14 @@
                 <td>电话</td>
             </tr>
             <tr>
+            <td><c:out value="${user.UserName}"></c:out></td>   <%--  UserController 拉取数据过来才能用 --%>
+            <td><c:out value="${user.Tel}" default="默认值">
 
+            </c:out></td>
+                <c:forEach items="${user}" var="user">
+                    <td>${user.UserName} </td>
+                    <td>${user.Tel}</td>
+                </c:forEach>
             </tr>
         </table>
     </div>

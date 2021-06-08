@@ -18,8 +18,8 @@
     原材料：<textarea name="material"></textarea><br/>
     价格：<input type="text" name="price"/><br/>
     分类<select name="type">
-    <c:forEach items="${typelist}" var="tl">
-        <option value="${tl.id}">${tl.typename}</option>
+    <c:forEach items="${typelist}" var="tl"> 是typelist这个集合   var是给集合给了个名字
+        <option value="${tl.id}">${tl.typename}</option>  tl.id 是序号，tl.typename是分类名字
     </c:forEach>
 </select><br/>
     <input type="submit" value="注册"/>

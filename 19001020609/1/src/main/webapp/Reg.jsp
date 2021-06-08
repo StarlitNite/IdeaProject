@@ -38,7 +38,7 @@
         </table>
         <div align="center">
             &nbsp;
-            <input type="button" value="返回登录" onclick="javascript:window.location.href='Login609.html' ">
+            <input type="button" value="返回登录" onclick="javascript:window.location.href='Log.jsp' ">
             &nbsp;
             <input type="reset" value="重置">
             &nbsp;

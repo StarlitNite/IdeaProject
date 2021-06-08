@@ -17,6 +17,7 @@ public class LogController extends HttpServlet {
 
         //获取用户名和密码
         String UserName = request.getParameter("UserName");
+        request.getSession().setAttribute("UserName", UserName);
         String Password = request.getParameter("Password");
 
         //与数据库中数据比较
