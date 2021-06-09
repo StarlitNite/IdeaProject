@@ -16,4 +16,10 @@ public class LogModel {
             return false;
         }
     }
+    public Map<String, String> getUserMap(String UserName){
+        String sql = "select * from user where UserName=?";
+        String[] params ={UserName};
+        Map<String, String> user= db.getMap(sql,params);
+        return user;
+    }
 }

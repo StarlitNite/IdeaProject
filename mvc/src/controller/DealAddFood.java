@@ -29,7 +29,6 @@ public class DealAddFood extends HttpServlet {
             request.setAttribute("path", "返回菜品列表页");
             request.setAttribute("href", "javasrcipt:history.back()");
             request.getRequestDispatcher("result.jsp").forward(request, response);
-
         }
     }
 
