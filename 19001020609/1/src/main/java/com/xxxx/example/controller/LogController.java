@@ -8,6 +8,9 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.util.Map;
 
+/**
+ * 登录功能
+ */
 @WebServlet(name = "LogController", value = "/LogController")
 public class LogController extends HttpServlet {
     @Override

@@ -23,7 +23,7 @@ public class AddfoodController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
-        List<Map<String,String>> typelist=fts.getFoodTypeList();//
+        List<Map<String,String>> typelist=fts.getFoodTypeList();//获取菜单列表，传递给addfood页面
         request.setAttribute("typeList",typelist);//
         request.getRequestDispatcher("addfood.jsp").forward(request,response);
 

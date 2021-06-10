@@ -7,9 +7,9 @@ import java.util.Map;
 
 public class Foodservise {//数据库一张表 对应一个service
     DBUtil db=new DBUtil();
-
+    //查询
     public List<Map<String,String>> getFoodList(String foodname){
-
+        //查询功能
         String sql = "";
         if (foodname == null){
             sql="select *from food";

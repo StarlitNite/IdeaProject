@@ -22,4 +22,5 @@ public class LogModel {
         Map<String, String> user= db.getMap(sql,params);
         return user;
     }
+
 }

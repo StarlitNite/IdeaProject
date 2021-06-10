@@ -15,3 +15,6 @@ jsp页面一直出现${user.UserName}是因为EL表达式未生效
 UserController那里
 
 el表达式：<c:if test="${user.UserName == 'admin'}"></c:if>  判定用单引号''。![img_2.png](img_2.png)
+
+
+没有把新闻分类的值传给addNews.jsp 回来解决

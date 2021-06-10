@@ -14,8 +14,8 @@
 </head>
 <body>
     <div align="right">
-        <a href="Main.jsp">主页面</a>
-        <a href="Log.jsp">退出</a>
+        <a href="LogController">主页面</a>
+        <a href="LogOut">退出</a>
     </div>
     <div>
         <table border="1">

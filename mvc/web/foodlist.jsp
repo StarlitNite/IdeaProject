@@ -32,7 +32,6 @@
 
     </tr>
     <c:set var="num" value="1"/>
-    <%--<jsp:useBean id="foodlist" scope="request" type="java.util.List"/>--%>
     <c:forEach items="${foodlist}" var="fl">
     <tr>
         <td>${num}</td>

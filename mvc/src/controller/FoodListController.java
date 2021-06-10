@@ -26,9 +26,9 @@ public class FoodListController extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
 
-        String foodname = request.getParameter("foodname");
+        String foodname = request.getParameter("foodname");//模糊查询需要用名字，
 
-        List<Map<String,String>> foods=fs.getFoodList(foodname);
+        List<Map<String,String>> foods=fs.getFoodList(foodname);//可以不传值，直接让jsp文件的fereach循环输出
         request.setAttribute("foodlist",foods);
 
         List<Map<String,String>> typelist=fts.getFoodTypeList();

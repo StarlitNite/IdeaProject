@@ -45,7 +45,7 @@
                 <c:if test="${user.UserName == 'admin'}">
                     | <a href="AdUser.jsp" target="_blank">管理</a><%--管理员管理界面--%>
                 </c:if>
-                | <a href="logout">退出</a>
+                | <a href="LogOut">退出</a>
             </c:otherwise>
         </c:choose>
 </div>

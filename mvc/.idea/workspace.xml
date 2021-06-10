@@ -7,31 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3244ca7c-edda-4f6e-88ed-8d993e3a1913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/ComModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/NewSModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/NewsGroupModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19001020609/1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19001020609/1/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/AddNewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/DelNewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/LogOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/addNews.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/result.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/LogModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/LogModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/NewSModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/NewsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/NewsGroupModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/NewsGroupModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/LogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/NewsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/AdUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/AdUser.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Sea.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/User.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/User.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Sea.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/User.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/User.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/WEB-INF/classes/com/xxxx/example/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/WEB-INF/classes/com/xxxx/example/controller/LogController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/target/classes/com/xxxx/example/controller/LogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/classes/com/xxxx/example/controller/LogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/页面思路图.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/页面思路图.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOAD-2021-4-1/-Course-Design-Assignment" beforeDir="false" afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/-Course-Design-Assignment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/AddfoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddfoodController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/DealAddFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DealAddFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/DeleteFoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DeleteFoodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/FoodListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/FoodListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servise/Foodservise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servise/Foodservise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/foodlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/foodlist.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +155,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../19001020609/1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -305,7 +310,8 @@
       <workItem from="1623161677796" duration="607000" />
       <workItem from="1623197615201" duration="7620000" />
       <workItem from="1623240695896" duration="16000" />
-      <workItem from="1623247650339" duration="1954000" />
+      <workItem from="1623247650339" duration="1955000" />
+      <workItem from="1623284828432" duration="17184000" />
     </task>
     <servers />
   </component>

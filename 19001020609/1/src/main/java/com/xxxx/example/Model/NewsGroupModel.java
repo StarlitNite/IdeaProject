@@ -7,9 +7,18 @@ import java.util.Map;
 
 public class NewsGroupModel {
     DBUtil db=new DBUtil();
-    public List<Map<String,String>> NewsGroupList(){
-        String sql="select * from newsgroup";
-        List<Map<String,String>>  typelist=db.getList(sql);
-        return typelist;
+    public List<Map<String,String>> NewsGroupList(String NewsGroup){
+
+        String sql="";
+        if (NewsGroup==null){
+            sql="select * from newsgroup";
+        }else {
+            sql="select * from newsgroup where NewsGrouplike'%"+NewsGroup+"'";//模糊查询
+        }
+        List<Map<String,String>>  NG=db.getList(sql);
+        return NG;
     }
+    //插入功能
+    //删除功能
+
 }
