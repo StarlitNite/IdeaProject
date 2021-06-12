@@ -1,4 +1,4 @@
-package com.xxxx.example.Controll;
+/*package com.xxxx.example.Controll;
 
 import Util.DBUtil;
 
@@ -34,4 +34,4 @@ public class UpdNews extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
-}
+}*/

@@ -22,9 +22,9 @@ public class DealUpdNewsController extends HttpServlet {
         String NewsGroupID = request.getParameter("NewsGroupID");
 
         NewsModel nm = new NewsModel();
-        Boolean result = nm.updNews(NewsTitle,NewsContent,NewsTime,NewsGroupID);
+        Boolean result = nm.updNews(NewsID,NewsTitle,NewsContent,NewsTime,NewsGroupID);
         if (result){
-            request.getRequestDispatcher("NewController").forward(request,response);
+            request.getRequestDispatcher("NewsController").forward(request,response);
         }else {
             request.setAttribute("msg", "修改新闻失败");
             request.setAttribute("path", "返回新闻列表页");
@@ -32,9 +32,8 @@ public class DealUpdNewsController extends HttpServlet {
             request.getRequestDispatcher("result.jsp").forward(request, response);
         }
     }
-
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        doGet(request, response);
     }
 }

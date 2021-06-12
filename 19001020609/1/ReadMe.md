@@ -23,5 +23,4 @@ foodlist.jsp  传到Controller 再请求转发到addfood.jsp。  添加的结果
 显示新闻分类：NewsGroupModel从数据库获取数据，再由AddNewsController获取model中的数据，请求转发给addNews.jsp。
 
 操作分为
-操作数据，处理数
-据操作（是否操作成功）
+操作数据，处理数据操作（是否操作成功）

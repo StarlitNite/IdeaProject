@@ -7,24 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3244ca7c-edda-4f6e-88ed-8d993e3a1913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/DealAddNewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/DealUpdNewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/UpdNewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/UpdNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/EatingHotPot/i-eating-HotPot/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/NewsGroupModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/NewsGroupModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Controll/UpdNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Controll/UpdNews.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/NewsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/NewsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/AddNewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/AddNewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/AdUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/AdUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/addNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/addNews.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/页面思路图.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/页面思路图.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/DealUpdNewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/DealUpdNewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/UpdNewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/UpdNewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/UpdNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/UpdNews.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOAD-2021-4-1/-Course-Design-Assignment" beforeDir="false" afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/-Course-Design-Assignment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project609/src/main/webapp/AddFoodType.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Project609/src/main/webapp/AddFoodType.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/addfood.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addfood.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +303,7 @@
       <workItem from="1623247650339" duration="1955000" />
       <workItem from="1623284828432" duration="17184000" />
       <workItem from="1623336590025" duration="37000" />
-      <workItem from="1623475983665" duration="6263000" />
+      <workItem from="1623475983665" duration="6872000" />
     </task>
     <servers />
   </component>

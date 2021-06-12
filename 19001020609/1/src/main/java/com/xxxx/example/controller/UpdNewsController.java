@@ -1,14 +1,16 @@
 package com.xxxx.example.controller;
 
+import com.xxxx.example.Model.NewsGroupModel;
 import com.xxxx.example.Model.NewsModel;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.util.List;
 import java.util.Map;
 
-@WebServlet( value = "/UpdNews")
+@WebServlet(name = "UpdNews", value = "/UpdNews")
 public class UpdNewsController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -17,21 +19,23 @@ public class UpdNewsController extends HttpServlet {
         response.setContentType("text/html; charset=UTF-8");
 
         //前台获取ID
-        String NewsTitle = request.getParameter("NewsTitle");
-        String NewsContent = request.getParameter("NewsContent");
-        String NewsTime = request.getParameter("NewsTime");
-        String NewsGroupID = request.getParameter("NewsGroupID");
+        String NewsID = request.getParameter("NewsID");
+
 //Model获取数据，传给jsp，jsp提交，处理，给结果
         //从model获取数据
         NewsModel nm = new NewsModel();
-        Boolean News = nm.updNews(NewsTitle,NewsContent,NewsTime,NewsGroupID);
+        NewsGroupModel ngm = new NewsGroupModel();
 
+        Map<String, String> News = nm.getNews(NewsID);//model查询数据
+        request.setAttribute("NewsList", News);//News->NewsList
 
-
+        List<Map<String, String>> NGL= ngm.getNewsGroupList();
+        request.setAttribute("NewsGroupList", NGL);
+        request.getRequestDispatcher("UpdNews.jsp").forward(request,response);
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        doGet(request, response);
     }
 }

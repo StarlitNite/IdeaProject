@@ -43,9 +43,15 @@ public class NewsModel {
         }
     }
     //修改功能
-    public Boolean updNews(String NewsTitle,String NewsContent,String NewsTime,String NewsGroupID){
+    public Map<String, String> getNews(String NewsID){
+        String sql = "select * from news where NewsID=?";
+        String[] params = {NewsID};
+        Map<String, String> News = db.getMap(sql,params);
+        return News;
+    }
+    public Boolean updNews(String NewsID, String NewsTitle, String NewsContent, String NewsTime, String NewsGroupID){
         String sql = "update news set NewsTitle=?,NewsContent=?,NewsTime=?,NewsGroupID=? where NewsID=?";
-        String[] params = {NewsTitle,NewsContent,NewsTime,NewsGroupID};
+        String[] params = {NewsTitle,NewsContent,NewsTime,NewsGroupID,NewsID};
         int result = db.update(sql, params);
         if (result==0){
             return false;
