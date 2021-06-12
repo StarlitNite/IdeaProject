@@ -28,15 +28,13 @@ public class NewsController extends HttpServlet {
 
         List<Map<String, String>> News = nm.getNewsList(NewsTitle);//从NewsModel获取
         request.setAttribute("NewsList",News);//News 新闻列表
-        List<Map<String, String>> NG = ngm.NewsGroupList(NewsGroup);//从NewsGroupModel
+        List<Map<String, String>> NG = ngm.NewsGroupList(NewsGroup);//从NewsGroupModel获取
         request.setAttribute("NewsGroupList", NG);//NG 新闻分类列表
         request.getRequestDispatcher("AdUser.jsp").forward(request, response);//传值给AdUser ,管理员管理
-
-
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        doGet(request, response);
     }
 }

@@ -36,14 +36,14 @@
                     <td>${nl.NewsTime}</td>
                     <%--操作--%>
                     <td>
-                        <a href="UpdNews?NewsID=${fl.id}">修改</a>
-                        <a href="delNews?NewsID=${fl.id}">删除</a>
+                        <a href="UpdNews?NewsID=${nl.NewsID}">修改</a>
+                        <a href="delNews?NewsID=${nl.NewsID}">删除</a>
                     </td>
                 </tr>
                 <c:set var="num" value="${num+1}"/>
             </c:forEach>
         </table>
-        <p align="center"><a href="addNews.jsp">添加</a></p>
+        <p align="center"><a href="AddNewsController">添加</a></p>
     </div>
 </body>
 </html>

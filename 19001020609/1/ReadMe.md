@@ -18,3 +18,10 @@ el表达式：<c:if test="${user.UserName == 'admin'}"></c:if>  判定用单引�
 
 
 没有把新闻分类的值传给addNews.jsp 回来解决
+foodlist.jsp  传到Controller 再请求转发到addfood.jsp。  添加的结果 跳转到消息提示
+
+显示新闻分类：NewsGroupModel从数据库获取数据，再由AddNewsController获取model中的数据，请求转发给addNews.jsp。
+
+操作分为
+操作数据，处理数
+据操作（是否操作成功）

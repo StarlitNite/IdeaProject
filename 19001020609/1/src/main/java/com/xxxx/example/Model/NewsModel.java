@@ -42,4 +42,15 @@ public class NewsModel {
             return true;
         }
     }
+    //修改功能
+    public Boolean updNews(String NewsTitle,String NewsContent,String NewsTime,String NewsGroupID){
+        String sql = "update news set NewsTitle=?,NewsContent=?,NewsTime=?,NewsGroupID=? where NewsID=?";
+        String[] params = {NewsTitle,NewsContent,NewsTime,NewsGroupID};
+        int result = db.update(sql, params);
+        if (result==0){
+            return false;
+        }else {
+            return true;
+        }
+    }
 }

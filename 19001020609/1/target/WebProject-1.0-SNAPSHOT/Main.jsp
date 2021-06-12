@@ -43,7 +43,7 @@
                 <!-- 顶部已登录 -->
                 欢迎你！<a href="UserController" target="_blank"><strong>${user.UserName }</strong></a>
                 <c:if test="${user.UserName == 'admin'}">
-                    | <a href="AdUser.jsp" target="_blank">管理</a><%--管理员管理界面--%>
+                    | <a href="NewsController" target="_blank">管理</a><%--管理员管理界面--%>
                 </c:if>
                 | <a href="LogOut">退出</a>
             </c:otherwise>
