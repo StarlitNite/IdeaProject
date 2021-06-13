@@ -24,3 +24,21 @@ foodlist.jsp  传到Controller 再请求转发到addfood.jsp。  添加的结果
 
 操作分为
 操作数据，处理数据操作（是否操作成功）
+
+
+新闻页面  用无序列表，${}获取新闻ID 匹配ID之后 显示新闻标题 点击进入新闻详情  进入详情后 观看新闻， 添加评论
+
+判断是否为admin  然后跳进MainController  MainController从NewsModel获取数据 然后重定向到Main.jsp
+
+用户数据 好像不太行
+
+报错：For input string 
+
+原因：Select.jsp 访问的是一个新闻的详情页面，而我在SelectController中向Select.jsp传输的却是一个List，用List调用对象属性，导致出现了这个情况![image-20210613122012580](C:\Users\Wu\AppData\Roaming\Typora\typora-user-images\image-20210613122012580.png)
+
+解决方法，改用Map即可
+
+
+
+评论功能思路：	jsp页面 div 放一个评论框表单，然后提交到Controller，再传回jsp页面。
+

@@ -50,6 +50,15 @@
         </c:choose>
 </div>
     <hr size="1">
+<div align="center">
+    <ul>
+        <c:forEach items="${NewsList}" var="nl">
+
+                <li><a href="SelectController?NewsTitle=${nl.NewsTitle}&NewsID=${nl.NewsID}">${nl.NewsTitle}</a></li>
+
+        </c:forEach>
+    </ul>
+</div>
 <h2>成功！</h2>
 
 

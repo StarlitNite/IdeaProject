@@ -3,6 +3,7 @@ package com.xxxx.example.Model;
 import Util.DBUtil;
 
 
+import java.util.List;
 import java.util.Map;
 
 public class UserModel {
@@ -15,5 +16,11 @@ public class UserModel {
         return user;
     }
 
+    public List<Map<String, String>> getUserList(String UserID){
+        String sql = "select * from user where UserID=?";
+        String[] params = {UserID};
+        List<Map<String, String>> user = db.getList(sql, params);
+        return user;
+    }
 
 }

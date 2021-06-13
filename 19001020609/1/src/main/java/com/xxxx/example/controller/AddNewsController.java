@@ -11,6 +11,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 添加新闻功能
+ */
 @WebServlet(name = "AddNewsController", value = "/AddNewsController")
 public class AddNewsController extends HttpServlet {
     @Override

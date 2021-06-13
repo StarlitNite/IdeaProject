@@ -20,6 +20,20 @@ public class NewsModel {
         List<Map<String, String>> News = db.getList(sql);
         return News;
     }
+    //新闻详情页面查询
+    public Map<String, String> getOneNews(String NewsTitle){
+        String sql ="select * from news where NewsTitle=?";
+        String[] params = {NewsTitle};
+        Map<String, String> News = db.getMap(sql,params);
+        return News;
+    }
+    //新闻ID对应的所有评论
+    public Map<String, String> getANews(String NewsID){
+        String sql ="select * from news where NewsID=?";
+        String[] params = {NewsID};
+        Map<String, String> News = db.getMap(sql,params);
+        return News;
+    }
     //插入功能
     public Boolean addNews(String NewsTitle,String NewsContent,String NewsTime,String NewsGroupID){
         String sql = "insert into news ( NewsTitle, NewsContent, NewsTime, NewsGroupID) values(?,?,?,?)";

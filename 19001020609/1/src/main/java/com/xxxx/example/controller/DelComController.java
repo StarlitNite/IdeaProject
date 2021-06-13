@@ -1,31 +1,29 @@
 package com.xxxx.example.controller;
 
-import com.xxxx.example.Model.NewsModel;
+import com.xxxx.example.Model.ComModel;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-/**
- * 删除新闻
- */
-@WebServlet(name = "delNews", value = "/delNews")
-public class DelNewsController extends HttpServlet {
+@WebServlet(name = "DelComController", value = "/DelComController")
+public class DelComController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //编码格式
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html; charset=UTF-8");
 
-        String NewsID = request.getParameter("NewsID");
-        NewsModel nm = new NewsModel();
-        Boolean result = nm.delNews(NewsID);
+        String CommentID = request.getParameter("CommentID");
+
+        ComModel cm = new ComModel();
+        Boolean result = cm.delCom(CommentID);
         if (result){
             request.getRequestDispatcher("NewsController").forward(request, response);
         }else {
-            request.setAttribute("msg", "删除新闻失败");
-            request.setAttribute("path", "返回新闻列表页");
+            request.setAttribute("msg", "删除评论失败");
+            request.setAttribute("path", "返回新闻页面");
             request.setAttribute("href", "javasrcipt:history.back()");
             request.getRequestDispatcher("result.jsp").forward(request, response);
         }

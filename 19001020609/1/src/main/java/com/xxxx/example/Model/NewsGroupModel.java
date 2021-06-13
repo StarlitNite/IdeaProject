@@ -13,7 +13,7 @@ public class NewsGroupModel {
         if (NewsGroup==null){
             sql="select * from newsgroup";
         }else {
-            sql="select * from newsgroup where NewsGrouplike'%"+NewsGroup+"'";//模糊查询
+            sql="select * from newsgroup where NewsGroup like'%"+NewsGroup+"'";//模糊查询
         }
         List<Map<String,String>>  NG=db.getList(sql);
         return NG;
@@ -40,10 +40,16 @@ public class NewsGroupModel {
             return true;
         }
     }
-
+    //查询全部新闻分类
     public List<Map<String,String>> getNewsGroupList(){//这点改掉，然后NewsController那块儿也得改掉
         String sql="select * from NewsGroup";
         List<Map<String,String>>  NG0=db.getList(sql);
         return NG0;
+    }
+
+    public Map<String,String> getOneNewsGroupList(){//这点改掉，然后NewsController那块儿也得改掉
+        String sql="select * from NewsGroup";
+        Map<String,String> NG1=db.getMap(sql);
+        return NG1;
     }
 }

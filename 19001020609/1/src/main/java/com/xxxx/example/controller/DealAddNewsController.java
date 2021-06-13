@@ -10,6 +10,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 处理新增新闻的操作
+ */
 @WebServlet(name = "DealAddNewsController", value = "/DealAddNewsController")
 public class DealAddNewsController extends HttpServlet {
     @Override
