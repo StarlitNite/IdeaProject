@@ -42,3 +42,6 @@ foodlist.jsp  传到Controller 再请求转发到addfood.jsp。  添加的结果
 
 评论功能思路：	jsp页面 div 放一个评论框表单，然后提交到Controller，再传回jsp页面。
 
+6.13遗留：![image-20210613190508223](C:\Users\Wu\AppData\Roaming\Typora\typora-user-images\image-20210613190508223.png)
+
+传递时间错误

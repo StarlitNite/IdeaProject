@@ -25,7 +25,8 @@
     </div>
     <div>
         用户ID
-        评论内容:           评论时间：
+        ${User.UserName}
+        评论内容:${Coms.CommentContent}           评论时间：${Coms.CommentTime}
     </div>
     <div>
         <form action="DealAddComController" method="post">
