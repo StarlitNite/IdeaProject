@@ -2,16 +2,22 @@ package com.xxxx.example.Model;
 
 import Util.DBUtil;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
 public class ComModel {
     DBUtil db = new DBUtil();
+    private Date CommentTime;
+
     //增加评论功能
-    public Boolean addCom(String CommentContent , Date CommentTime, String UserID, String NewsID){
+    public Boolean addCom(String CommentContent , String UserID, String NewsID){
+        CommentTime = new Date();
+        String time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(CommentTime);
+
         String sql = "insert into comment (CommentContent, CommentTime, UserID, NewsID) values(?,?,?,?)";
-        String[] params ={CommentContent, String.valueOf(CommentTime),UserID,NewsID};
+        String[] params ={CommentContent, time,UserID,NewsID};
         int result = db.update(sql, params);
         if (result==0){
             return false;

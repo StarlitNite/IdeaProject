@@ -7,11 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3244ca7c-edda-4f6e-88ed-8d993e3a1913" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Com.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19001020609/1/~$页面思路图.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/ComModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/ComModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/Model/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/DealAddComController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/DealAddComController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/SelectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/java/com/xxxx/example/controller/SelectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/src/main/webapp/Select.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19001020609/1/~$库设计 (已自动恢复).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../19001020609/1/target/WebProject-1.0-SNAPSHOT/Main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOAD-2021-4-1/-Course-Design-Assignment" beforeDir="false" afterPath="$PROJECT_DIR$/../OOAD-2021-4-1/-Course-Design-Assignment" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s18001020710_/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/../s18001020710_/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +137,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project609" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -292,6 +299,9 @@
       <workItem from="1623553736298" duration="1212000" />
       <workItem from="1623596997788" duration="7000" />
       <workItem from="1623639864212" duration="120000" />
+      <workItem from="1623730769500" duration="1986000" />
+      <workItem from="1623760290002" duration="278000" />
+      <workItem from="1623763105493" duration="672000" />
     </task>
     <servers />
   </component>

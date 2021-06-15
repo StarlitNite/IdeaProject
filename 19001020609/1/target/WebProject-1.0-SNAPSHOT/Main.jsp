@@ -13,8 +13,8 @@
     <title>首页</title>
 </head>
 <body>
-<form action="getNewsList" method="post">
-    <input type="text" name="NewsName" placeholder="搜索新闻">
+<form action="MainController" method="post">
+    <input type="text" name="NewsTitle" placeholder="搜索新闻">
     <input type="submit" value="搜索">
 </form>
 
@@ -54,7 +54,7 @@
     <ul>
         <c:forEach items="${NewsList}" var="nl">
 
-                <li><a href="SelectController?NewsTitle=${nl.NewsTitle}&NewsID=${nl.NewsID}">${nl.NewsTitle}</a></li>
+                <li><a href="SelectController?NewsTitle=${nl.NewsTitle}&NewsID=${nl.NewsID}&UserID=${user.UserID}">${nl.NewsTitle}</a></li>
 
         </c:forEach>
     </ul>

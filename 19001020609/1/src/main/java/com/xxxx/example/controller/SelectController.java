@@ -1,7 +1,9 @@
 package com.xxxx.example.controller;
 
+import com.xxxx.example.Model.ComModel;
 import com.xxxx.example.Model.NewsGroupModel;
 import com.xxxx.example.Model.NewsModel;
+import com.xxxx.example.Model.UserModel;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -20,8 +22,12 @@ public class SelectController extends HttpServlet {
 
         NewsModel nm = new NewsModel();
         NewsGroupModel ngm = new NewsGroupModel();
+        UserModel um = new UserModel();
+        ComModel cm = new ComModel();
 
         String NewsTitle = request.getParameter("NewsTitle");
+        String UserID = request.getParameter("UserID");
+        String NewsID = request.getParameter("NewsID");
         /*String NewsGroup = request.getParameter("NewsGroup");
 
         System.out.println(NewsGroup);*/
@@ -30,6 +36,14 @@ public class SelectController extends HttpServlet {
         request.setAttribute("NewsList",News);//News 新闻列表
         Map<String, String> NG = ngm.getOneNewsGroupList();//从NewsGroupModel获取
         request.setAttribute("NewsGroup", NG);//NG 新闻分类列表
+        List<Map<String, String>> User = um.getUserList(UserID);
+        request.setAttribute("UserList", User);//User 用户
+        List<Map<String, String>> Com = cm.getComList(NewsID);//ComModel获取 评论
+        request.setAttribute("Coms", Com);//评论
+        Map<String, String> New = nm.getANews(NewsID);//
+        request.setAttribute("News", New);//
+        Map<String, String> CM = um.getMap(UserID);
+        request.setAttribute("User", CM);
         request.getRequestDispatcher("Select.jsp").forward(request, response);
     }
 

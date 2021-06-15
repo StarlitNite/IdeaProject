@@ -23,4 +23,11 @@ public class UserModel {
         return user;
     }
 
+    //增加评论 需要单个UserID
+    public Map<String, String> getMap(String UserID){
+        String sql = "select * from user where UserID=?";
+        String[] params ={UserID};
+        Map<String, String> user= db.getMap(sql,params);
+        return user;
+    }
 }

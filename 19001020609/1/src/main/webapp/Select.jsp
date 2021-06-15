@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
 <html>
 <head>
     <title>新闻详情</title>
@@ -24,19 +25,25 @@
         </table>
     </div>
     <div>
-        用户ID
-        ${User.UserName}
-        评论内容:${Coms.CommentContent}           评论时间：${Coms.CommentTime}
+        <%--用户ID--%>
+        <c:forEach items="${UserList}" var="ul">
+            <p>${ul.UserName}</p><br>
+            ${Coms.CommentContent}|${Coms.CommentTime}
+        </c:forEach>
+
+        <%--评论内容:--%>          <%--评论时间：--%>
     </div>
-    <div>
+    <%--<a href="ComController?UserID=${User.UserID}&NewsID=${NewsList.NewsID}">评论</a>--%>
+    <div  style="position:absolute; bottom:0; position:fixed;" align="center">
         <form action="DealAddComController" method="post">
-            <textarea>${Coms.CommentContent}</textarea>
+            <input type="text" name="CommentContent" value="${Coms.CommentContent}">
             <input type="hidden" name="NewsID" value="${News.NewsID}">
             <input type="hidden" name="UserID" value="${User.UserID}">
+            <%--<fmt:formatDate value="${today}" pattern="yyyy/MM/dd  HH:mm:ss" var="d" />--%>
             <%--<input type="hidden" name="CommentTime" value="">--%>
             <input type="submit" value="发表">
-            内容
-            hidden  时间，数据库的 新闻id，用户id
+            <%--内容
+            hidden  时间，数据库的 新闻id，用户id--%>
         </form>
     </div>
 </body>
