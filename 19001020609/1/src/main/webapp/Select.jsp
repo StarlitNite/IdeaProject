@@ -11,6 +11,19 @@
 <html>
 <head>
     <title>新闻详情</title>
+    <style type="text/css">
+        .b{
+            height:100px;
+            width:100px;
+            background-color:black;
+
+
+            position:absolute;
+            bottom:0;
+            margin-left:-50px;/*div宽度的一半*/
+            left:50%;
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -24,8 +37,7 @@
             <td>${NewsList.NewsContent}</td>
         </table>
     </div>
-    <div>
-        <%--用户ID--%>
+    <div class="b">
         <c:forEach items="${UserList}" var="ul">
             <p>${ul.UserName}</p><br>
             ${Coms.CommentContent}|${Coms.CommentTime}
@@ -35,6 +47,7 @@
     </div>
     <%--<a href="ComController?UserID=${User.UserID}&NewsID=${NewsList.NewsID}">评论</a>--%>
     <div  style="position:absolute; bottom:0; position:fixed;" align="center">
+        <%--用户ID--%>
         <form action="DealAddComController" method="post">
             <input type="text" name="CommentContent" value="${Coms.CommentContent}">
             <input type="hidden" name="NewsID" value="${News.NewsID}">

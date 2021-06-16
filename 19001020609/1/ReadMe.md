@@ -45,3 +45,11 @@ foodlist.jsp  传到Controller 再请求转发到addfood.jsp。  添加的结果
 6.13遗留：![image-20210613190508223](C:\Users\Wu\AppData\Roaming\Typora\typora-user-images\image-20210613190508223.png)
 
 传递时间错误
+
+
+
+SelectController还要有UserModel  加了之后 Select.jsp里的a标签就可以带User，News的ID了
+
+点击评论按钮，跳转到ComController +新闻用户评论ID 页面，之后请求转发到Select页面再由Com.jsp跳转到DealAddComment页面
+
+顺序：select获取到newsuserID -> comcontroller -> comjsp->Deal处理->交回给controller请求转发回Select.jsp

@@ -10,9 +10,9 @@
 <html>
 <head>
     <title>Title</title>
+    <script type="text/javascript" src="Script/jquery-1.7.2.js"></script>
 </head>
 <body>
-管理员面板
     <h1 align="center">新闻主页</h1>
     <div>
         <table align="center" border="1">
@@ -44,6 +44,7 @@
             </c:forEach>
         </table>
         <p align="center"><a href="AddNewsController">添加</a></p>
+        <p align="center"><input type="button" value="返回" onclick="javascript:window.location.href='Main.jsp' "></p>
     </div>
 </body>
 </html>

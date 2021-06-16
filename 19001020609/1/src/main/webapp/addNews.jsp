@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>添加新闻</title>
+    <script type="text/javascript" src="Script/jquery-1.7.2.js"></script>
 </head>
 <body>
 <form action="DealAddNewsController" method="post">
