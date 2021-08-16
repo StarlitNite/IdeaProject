@@ -49,15 +49,15 @@ public class HasMoney implements State ,Cloneable {
         System.out.println("您已选择"+name);
         System.out.println("价格"+price+"元");
 
-        context.setState(context.GiveGoods);//设置为出货状态
+        //context.setState(context.GiveGoods);//设置为出货状态
         //System.out.println(num);
-        GiveGoods gg = new GiveGoods(context);
-        gg.goods = name;
+        /*GiveGoods gg = new GiveGoods(context);
+        gg.goods = name;*/
 
         //获取订单时，获取货物价格和货物数量
-        OrderNo orderNo = new OrderNo();
+        /*OrderNo orderNo = new OrderNo();
         orderNo.count = price;
-        orderNo.num = num;
+        orderNo.num = num;*/
 
 
 

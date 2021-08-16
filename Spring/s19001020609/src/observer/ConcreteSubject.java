@@ -1,6 +1,8 @@
 package observer;
 
+import Singleton.OrderNo;
 import state.Context;
+import state.GiveGoods;
 import state.HasMoney;
 
 import javax.swing.*;
@@ -18,8 +20,15 @@ public class ConcreteSubject implements Subject{
     public void judge(){
         Context context=new Context();
         if (num>0){
-            context.setState(context.GiveGoods);
+
             JOptionPane.showMessageDialog(null, "您已选择"+name+"价格  "+price+"元", "信息", JOptionPane.INFORMATION_MESSAGE);
+            context.setState(context.GiveGoods);
+            GiveGoods gg = new GiveGoods(context);
+            gg.goods = name;
+
+            OrderNo orderNo = new OrderNo();
+            orderNo.count = price;
+            orderNo.num = num;
         }else {
             context.setState(context.NoGoods);
             ConcreteObserver co = new ConcreteObserver();
