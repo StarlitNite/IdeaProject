@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>state</OriginalElement>
+  <nodes>
+    <node x="57.88888888888897" y="175.0">state.NoMoney</node>
+    <node x="294.0429292929293" y="-21.428571428571416">state.State</node>
+    <node x="246.88888888888897" y="175.0">state.NoGoods</node>
+    <node x="624.888888888889" y="175.0">state.GiveGoods</node>
+    <node x="435.88888888888897" y="175.0">state.HasMoney</node>
+    <node x="275.0" y="789.0">state.Button1.factoryListener</node>
+    <node x="186.0" y="923.0">state.Button1</node>
+    <node x="0.0" y="789.0">state.Button1.OrderListener</node>
+    <node x="306.888888888889" y="462.0">state.Context</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="state.NoGoods" target="state.Context" relationship="DEPENDENCY">
+      <point x="56.33333333333337" y="86.5" />
+      <point x="387.72222222222234" y="370.0" />
+      <point x="615.3055555555557" y="370.0" />
+      <point x="615.3055555555557" y="410.0" />
+      <point x="423.076388888889" y="410.0" />
+      <point x="31.6875" y="-156.0" />
+    </edge>
+    <edge source="state.Context" target="state.GiveGoods" relationship="CREATE">
+      <point x="73.9375" y="-156.0" />
+      <point x="465.326388888889" y="400.0" />
+      <point x="767.388888888889" y="400.0" />
+      <point x="57.0" y="86.5" />
+    </edge>
+    <edge source="state.GiveGoods" target="state.Context" relationship="TO_ONE">
+      <point x="-57.0" y="86.5" />
+      <point x="653.388888888889" y="380.0" />
+      <point x="236.638888888889" y="380.0" />
+      <point x="236.638888888889" y="410.0" />
+      <point x="401.951388888889" y="410.0" />
+      <point x="10.5625" y="-156.0" />
+    </edge>
+    <edge source="state.Button1" target="state.Button1.factoryListener" relationship="CREATE">
+      <point x="52.66666666666663" y="-40.0" />
+      <point x="317.66666666666663" y="901.0" />
+      <point x="466.25" y="901.0" />
+      <point x="63.75" y="40.0" />
+    </edge>
+    <edge source="state.Context" target="state.State" relationship="TO_ONE">
+      <point x="-73.9375" y="-156.0" />
+      <point x="317.451388888889" y="410.0" />
+      <point x="36.38888888888897" y="410.0" />
+      <point x="36.38888888888897" y="155.0" />
+      <point x="322.20959595959596" y="155.0" />
+      <point x="-56.333333333333314" y="62.5" />
+    </edge>
+    <edge source="state.NoGoods" target="state.State" relationship="REALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="331.38888888888897" y="155.0" />
+      <point x="434.87626262626264" y="155.0" />
+      <point x="56.33333333333337" y="62.5" />
+    </edge>
+    <edge source="state.NoMoney" target="state.State" relationship="REALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="142.38888888888897" y="155.0" />
+      <point x="434.87626262626264" y="155.0" />
+      <point x="56.33333333333337" y="62.5" />
+    </edge>
+    <edge source="state.Context" target="state.HasMoney" relationship="CREATE">
+      <point x="52.8125" y="-156.0" />
+      <point x="444.201388888889" y="390.0" />
+      <point x="576.7222222222223" y="390.0" />
+      <point x="56.33333333333334" y="86.5" />
+    </edge>
+    <edge source="state.Context" target="state.State" relationship="DEPENDENCY">
+      <point x="-52.8125" y="-156.0" />
+      <point x="338.576388888889" y="400.0" />
+      <point x="47.38888888888897" y="400.0" />
+      <point x="47.38888888888897" y="155.0" />
+      <point x="378.5429292929293" y="155.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="state.GiveGoods" target="state.Context" relationship="DEPENDENCY">
+      <point x="0.0" y="86.5" />
+      <point x="710.388888888889" y="370.0" />
+      <point x="615.3055555555557" y="370.0" />
+      <point x="615.3055555555557" y="410.0" />
+      <point x="423.076388888889" y="410.0" />
+      <point x="31.6875" y="-156.0" />
+    </edge>
+    <edge source="state.Button1.factoryListener" target="state.Button1" relationship="INNER_CLASS">
+      <point x="-63.75" y="40.0" />
+      <point x="338.75" y="891.0" />
+      <point x="265.0" y="891.0" />
+      <point x="0.0" y="-40.0" />
+    </edge>
+    <edge source="state.Context" target="state.NoGoods" relationship="CREATE">
+      <point x="-10.5625" y="-156.0" />
+      <point x="380.826388888889" y="400.0" />
+      <point x="275.05555555555566" y="400.0" />
+      <point x="-56.333333333333314" y="86.5" />
+    </edge>
+    <edge source="state.NoGoods" target="state.Context" relationship="TO_ONE">
+      <point x="0.0" y="86.5" />
+      <point x="331.38888888888897" y="380.0" />
+      <point x="236.638888888889" y="380.0" />
+      <point x="236.638888888889" y="410.0" />
+      <point x="401.951388888889" y="410.0" />
+      <point x="10.5625" y="-156.0" />
+    </edge>
+    <edge source="state.Button1" target="state.Button1.OrderListener" relationship="CREATE">
+      <point x="-52.66666666666663" y="-40.0" />
+      <point x="212.33333333333337" y="901.0" />
+      <point x="63.75" y="901.0" />
+      <point x="-63.75" y="40.0" />
+    </edge>
+    <edge source="state.HasMoney" target="state.State" relationship="REALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="520.3888888888889" y="155.0" />
+      <point x="434.87626262626264" y="155.0" />
+      <point x="56.33333333333337" y="62.5" />
+    </edge>
+    <edge source="state.HasMoney" target="state.Context" relationship="TO_ONE">
+      <point x="-56.33333333333334" y="86.5" />
+      <point x="464.05555555555554" y="380.0" />
+      <point x="236.638888888889" y="380.0" />
+      <point x="236.638888888889" y="410.0" />
+      <point x="401.951388888889" y="410.0" />
+      <point x="10.5625" y="-156.0" />
+    </edge>
+    <edge source="state.NoMoney" target="state.Context" relationship="DEPENDENCY">
+      <point x="56.33333333333337" y="86.5" />
+      <point x="198.72222222222234" y="370.0" />
+      <point x="615.3055555555557" y="370.0" />
+      <point x="615.3055555555557" y="410.0" />
+      <point x="423.076388888889" y="410.0" />
+      <point x="31.6875" y="-156.0" />
+    </edge>
+    <edge source="state.Context" target="state.NoMoney" relationship="CREATE">
+      <point x="-31.6875" y="-156.0" />
+      <point x="359.701388888889" y="390.0" />
+      <point x="86.0555555555556" y="390.0" />
+      <point x="-56.33333333333337" y="86.5" />
+    </edge>
+    <edge source="state.NoMoney" target="state.Context" relationship="TO_ONE">
+      <point x="0.0" y="86.5" />
+      <point x="142.38888888888897" y="380.0" />
+      <point x="236.638888888889" y="380.0" />
+      <point x="236.638888888889" y="410.0" />
+      <point x="401.951388888889" y="410.0" />
+      <point x="10.5625" y="-156.0" />
+    </edge>
+    <edge source="state.GiveGoods" target="state.State" relationship="REALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="710.388888888889" y="155.0" />
+      <point x="434.87626262626264" y="155.0" />
+      <point x="56.33333333333337" y="62.5" />
+    </edge>
+    <edge source="state.Button1.OrderListener" target="state.Button1" relationship="INNER_CLASS">
+      <point x="63.75" y="40.0" />
+      <point x="191.25" y="891.0" />
+      <point x="265.0" y="891.0" />
+      <point x="0.0" y="-40.0" />
+    </edge>
+    <edge source="state.HasMoney" target="state.Context" relationship="DEPENDENCY">
+      <point x="0.0" y="86.5" />
+      <point x="520.3888888888889" y="370.0" />
+      <point x="615.3055555555557" y="370.0" />
+      <point x="615.3055555555557" y="410.0" />
+      <point x="423.076388888889" y="410.0" />
+      <point x="31.6875" y="-156.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7" showDependencies="true" x="290.57142857142867" y="312.2857142857142" />
+  <SelectedNodes>
+    <node>state.Context</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

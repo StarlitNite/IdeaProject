@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d7aa7ce-4c09-433b-88dc-b37114a3845a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../19001020609/19001020609吴星昊/.idea/19001020609吴星昊.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19001020609/19001020609吴星昊/1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EatingHotPot/i-eating-HotPot/OnlinStore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VendingMachine" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SOVO/src/main/java/com/example/sovo/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SOVO/src/main/java/com/example/sovo/common/apiResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SOVO/src/main/java/com/example/sovo/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SOVO/src/main/java/com/example/sovo/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SOVO/src/main/java/com/example/sovo/controller/loginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SOVO/src/main/java/com/example/sovo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SOVO/src/main/java/com/example/sovo/entity/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SOVO/src/main/java/com/example/sovo/service/impl/loginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SOVO/src/main/java/com/example/sovo/service/loginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SOVO/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SpringBoot-Vue-OnlineExam-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SpringBoot-Vue-OnlineExam-master/.idea/SpringBoot-Vue-OnlineExam-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SpringBoot-Vue-OnlineExam-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SpringBoot-Vue-OnlineExam-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SpringBoot-Vue-OnlineExam-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SpringStu/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SpringStu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SpringStu/springstu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SpringStu/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/SpringStu/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/day01/代码/springboot/springboot-helloworld/springboot-helloworld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/antlr-2.7.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/aspectjweaver.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/cglib-nodep-2.1_3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/commons-collections-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/commons-logging-api-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/ehcache-1.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/hibernate3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/javassist-3.12.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/jta-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/mysql-connector-java-5.0.8-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.aop-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.asm-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.aspects-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.beans-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.context-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.context.support-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.core-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.expression-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.instrument-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.instrument.tomcat-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.jdbc-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.jms-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.orm-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.oxm-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.test-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.transaction-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.web-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.web.portlet-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.web.servlet-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/org.springframework.web.struts-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/lib/slf4j-api-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/s19001020609.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/ButtonAct/Button1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/ButtonAct/SwingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/ButtonAct/yinpin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/Singleton/OrderNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/DrinkFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/GoodsAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/asm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/bbz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/btl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/cola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/gsly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/jdl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/nF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/factory/sprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/state/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/state/GiveGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/state/HasMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/state/NoGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/state/NoMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/s19001020609/src/state/state.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/controller/comController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/controller/userController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/dao/comMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/dao/userMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/entity/com.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/entity/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/exception/ParamsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/service/Impl/comServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/service/Impl/userServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/service/comService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/service/userService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/util/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/java/com/example/sovo0/util/AssertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/resources/mapper/comMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo0/src/main/resources/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo1/src/main/java/com/example/sovo1/config/Swaggerconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo1/src/main/java/com/example/sovo1/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo1/src/main/java/com/example/sovo1/emtity/user.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo1/src/main/java/com/example/sovo1/emtity/vo/userVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo1/src/main/java/com/example/sovo1/mapper/userMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo1/src/main/java/com/example/sovo1/service/Impl/loginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo1/src/main/java/com/example/sovo1/service/loginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sovo1/src/main/resources/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/bin/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/bin/com/how2java/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/bin/com/how2java/test/TestSpring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/antlr-2.7.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/aspectjweaver.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/cglib-nodep-2.1_3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/commons-collections-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/commons-logging-api-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/ehcache-1.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/hibernate3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/javassist-3.12.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/jta-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/mysql-connector-java-5.0.8-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.aop-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.asm-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.aspects-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.beans-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.context-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.context.support-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.core-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.expression-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.instrument-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.instrument.tomcat-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.jdbc-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.jms-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.orm-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.oxm-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.test-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.transaction-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.web-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.web.portlet-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.web.servlet-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/org.springframework.web.struts-3.1.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/lib/slf4j-api-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/src/com/how2java/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/spring/src/com/how2java/test/TestSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/sshLearner/sshLearner.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/weibo/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/.idea/案例.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_mybatis_anno/itheima_mybatis_anno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_mybatis_config/itheima_mybatis_config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_mybatis_dao/itheima_mybatis_dao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_mybatis_mapper/itheima_mybatis_mapper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_mybatis_multi/itheima_mybatis_multi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_mybatis_quick/itheima_mybatis_quick.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_spring_aop/itheima_spring_aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_spring_exception/itheima_spring_exception.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_spring_interceptor/itheima_spring_interceptor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_spring_ioc/itheima_spring_ioc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_spring_ioc_anno/itheima_spring_ioc_anno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_spring_jdbc/itheima_spring_jdbc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_spring_mvc/itheima_spring_mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_spring_test/itheima_spring_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_spring_tx/itheima_spring_tx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/案例/itheima_spring_tx_anno/itheima_spring_tx_anno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/素材/itheima_spring_exception/itheima_spring_exception.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/资料-SS M框架Spring+SpringMVC+MyBatis全覆盖/素材/itheima_spring_tx/itheima_spring_tx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s19001020609 - 副本/piggy-war.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s190010206091/piggy-war.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/dataSources/8c62c4c6-d289-41b5-bfd1-578bc4c935fa/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/Util/DBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/AdUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/DelCom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/DelNews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/DelUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/GetSea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/GetUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/InsCom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/InsNews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/Reg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/UpdAdUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/UpdCom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/UpdNews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Controll/UpdUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Model/ComModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Model/LogModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Model/NewsGroupModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Model/NewsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Model/RegModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/Model/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/AddNewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/ComController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/DealAddComController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/DealAddNewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/DealUpdNewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/DelComController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/DelNewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/LogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/LogOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/NewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/RegController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/SelectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/UpdNewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/java/com/xxxx/example/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/AdUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/Com.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/Log.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/Main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/Reg.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/Script/jquery-1.7.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/Select.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/UpdNews.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/User.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/addNews.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/image/Log.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/src/main/webapp/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/target/WebProject-1.0-SNAPSHOT/Log.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/target/WebProject-1.0-SNAPSHOT/Main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/target/WebProject-1.0-SNAPSHOT/Reg.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/target/WebProject-1.0-SNAPSHOT/Script/jquery-1.7.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/target/WebProject-1.0-SNAPSHOT/User.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/target/WebProject-1.0-SNAPSHOT/WEB-INF/classes/com/xxxx/example/controller/LogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/target/WebProject-1.0-SNAPSHOT/image/Log.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/target/classes/com/xxxx/example/controller/LogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/数据库设计 (已自动恢复).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/绘图1.eddx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../19001020609/1/页面思路图.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../-Course-Design-Assignment" beforeDir="false" afterPath="$PROJECT_DIR$/../-Course-Design-Assignment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../observer/v1/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../observer/v1/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$add_item_Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$add_item_Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$add_meatListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$add_meatListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$open_machineListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$open_machineListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$repairListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client$repairListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/Test/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Client_add_item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Client_add_item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Cola_Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Cola_Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Cola_add.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Cola_add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Milk_add.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Milk_add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Milk_factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_item/Milk_factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Client_add_meat$repairListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Client_add_meat$repairListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Client_add_meat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Client_add_meat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Meat_A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Meat_A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Meat_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/add_meat/Meat_B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/buy_order/Order_No.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/buy_order/Order_No.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Client_Control.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Client_Control.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Light.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Main_Swicth.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Main_Swicth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Net_control.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Net_control.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Screen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/open_machine/Screen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Client_repair.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Client_repair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv1_Machinic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv1_Machinic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv2_Machinic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv2_Machinic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv3_Machinic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv3_Machinic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv4_Machinic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/bin/repair/Lv4_Machinic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_item/Item_Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/src/add_item/Item_Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/src/buy_order/Order_No.java" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/src/buy_order/Order_No.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/src/repair/Advance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../自动贩卖机系统_20200817_155113/自动贩卖机系统/src/repair/Advance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/pig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/pig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/piggy-war.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/launcher/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/launcher/BattleBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/launcher/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/launcher/Pig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v1_state/BattlingState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v1_state/GameOverState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v1_state/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v2_observer/HealthPoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v2_observer/HealthPointsObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v3_template_method/AttackTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v3_template_method/SimpleAttackTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v4_composite_iterator/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v4_composite_iterator/PaintableComposite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v5_adapter/AnimalPaintableCompositeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v5_adapter/AttackButtonPaintableCompositeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v5_adapter/HealthPointsPaintableCompositeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v7_strategy/AttackStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v7_strategy/BoxingAttackStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v7_strategy/FootAttackStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v7_strategy/PalmAttackStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/src/main/java/v7_strategy/SkillAttackStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/launcher/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/launcher/BattleBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/launcher/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/launcher/Pig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v1_state/BattlingState$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v1_state/BattlingState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v1_state/GameOverState$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v1_state/GameOverState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v1_state/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v2_observer/HealthPoints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v2_observer/HealthPointsObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v3_template_method/AttackTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v3_template_method/SimpleAttackTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v4_composite_iterator/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v4_composite_iterator/PaintableComposite$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v4_composite_iterator/PaintableComposite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v5_adapter/AnimalPaintableCompositeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v5_adapter/AttackButtonPaintableCompositeAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v5_adapter/AttackButtonPaintableCompositeAdapter$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v5_adapter/AttackButtonPaintableCompositeAdapter$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v5_adapter/AttackButtonPaintableCompositeAdapter$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v5_adapter/AttackButtonPaintableCompositeAdapter$ButtonPaintableCompositeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v5_adapter/AttackButtonPaintableCompositeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v5_adapter/HealthPointsPaintableCompositeAdapter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v5_adapter/HealthPointsPaintableCompositeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v7_strategy/AttackStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v7_strategy/BoxingAttackStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v7_strategy/FootAttackStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v7_strategy/PalmAttackStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/classes/v7_strategy/SkillAttackStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s19001020609/三级项目案例答辩.pptx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Study\Code\m2\repository" />
+        <option name="mavenHome" value="D:/Study/apache-maven-3.8.1-bin/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\Study\apache-maven-3.8.1-bin\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wewKPk1cfsRWLgfyEilqZxxSfR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d7aa7ce-4c09-433b-88dc-b37114a3845a" name="Default Changelist" comment="" />
+      <created>1628832298336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628832298336</updated>
+      <workItem from="1628832299920" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

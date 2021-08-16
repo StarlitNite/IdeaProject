@@ -3,9 +3,9 @@ package buy_order;
 public class Order_No {
 	private static Order_No instance = null;
 	private String no;
-	private Order_No() 
+	private Order_No()
 	{
-		
+
 	}
 
 	public static Order_No getInstance() {

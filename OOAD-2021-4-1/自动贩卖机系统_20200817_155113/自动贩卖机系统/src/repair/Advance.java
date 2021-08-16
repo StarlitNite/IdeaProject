@@ -7,4 +7,5 @@ public abstract class Advance
 		this.successor=successor;
 	}
 	public abstract void handleRequest(Repair_Request request);
+
 }

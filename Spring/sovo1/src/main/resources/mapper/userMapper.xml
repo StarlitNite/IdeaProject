@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.sovo1.mapper.userMapper">
+    <resultMap id="FindAll" type="com.example.sovo1.emtity.vo.userVo">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <id column="username" property="username" jdbcType="VARCHAR"/>
+        <id column="password" property="password" jdbcType="VARCHAR"/>
+        <id column="ident" property="idnet" jdbcType="VARCHAR"/>
+    </resultMap>
+<sql id="Base_Column_List">
+    id,username,password
+</sql>
+
+
+    <select id="login" resultMap="FindAll">
+        select
+            *
+        from
+            user
+        where username=#{username} AND password=#{password}
+    </select>
+
+    <insert id="register" parameterType="String">
+        insert into user values (#{username},#{password},#{ident})
+    </insert>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.sovo0.dao.comMapper">
+
+    <!--通过公司名称查找公司-->
+    <select id="queryComByName" parameterType="String" resultType="com.example.sovo0.entity.com">
+        select * from company where comname = #{comName}
+    </select>
+
+    <!--添加工商信息-->
+    <insert id="insertCom" parameterType="com">
+        insert into
+            company(comlogo,legalperson,tel,settime,comweb,comlocal,comemail,buslic,combus)
+        values
+            (#{comlogo},#{legalperson},#{tel},#{settime},#{comweb},#{comlocal},#{comemail},#{buslic},#{combus})
+    </insert>
+
+</mapper>
