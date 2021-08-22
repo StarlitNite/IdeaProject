@@ -1,13 +1,28 @@
 package observer;
 
+import ButtonAct.Button1;
+import state.Context;
+
 import javax.swing.*;
+import java.awt.*;
 
 public class ConcreteObserver implements Observer{
+    //Context context=new Context();
     @Override
     public void noGoods(String name) {
         System.out.println(name+"没货了");
-        JOptionPane.showMessageDialog(null, name+"没货了", "信息", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, name+"没货了,请您退币！", "信息", JOptionPane.INFORMATION_MESSAGE);
+        //context.setState(context.HasMoney);
+
     }
+
+    @Override
+    public void update(String name) {
+        new Button().setBackground(Color.red);
+
+    }
+
+
 
    /* @Override
     public void del() {

@@ -1,5 +1,6 @@
 package state;
 
+import Singleton.OrderNo;
 import observer.ConcreteObserver;
 
 import javax.swing.*;
@@ -19,8 +20,8 @@ public class NoGoods implements State {
 
     @Override
     public void ChooseGoods(String name,int price,int num) {
-        ConcreteObserver co = new ConcreteObserver();
-        co.noGoods(goods);
+        /*ConcreteObserver co = new ConcreteObserver();
+        co.noGoods(goods);*/
 
     }
 
@@ -33,6 +34,7 @@ public class NoGoods implements State {
     public int OutMoney() {
         System.out.println("已退币2");
         JOptionPane.showMessageDialog(null, "已退币2", "信息", JOptionPane.INFORMATION_MESSAGE);
+        OrderNo.instance = null;
         return 0;
 
     }

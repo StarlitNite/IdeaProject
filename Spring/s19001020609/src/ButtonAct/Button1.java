@@ -1,8 +1,13 @@
 package ButtonAct;
 
 
+import Decorator.Component;
+import Decorator.ConcretComponent;
+import Decorator.ConcreteDecorator;
 import Singleton.OrderNo;
 import factory.*;
+import observer.ConcreteSubject;
+import observer.Observer;
 import state.Context;
 import state.HasMoney;
 
@@ -24,6 +29,7 @@ public class Button1 extends JFrame{
         container.setLayout(new BorderLayout());
         JPanel p1 = new JPanel();
         p1.setLayout(new GridLayout(3, 3));
+
         JButton b1 = new JButton("可乐");
         JButton b2 = new JButton("雪碧");
         JButton b3 = new JButton("雀巢咖啡");
@@ -53,6 +59,7 @@ public class Button1 extends JFrame{
         b7.addActionListener(new ButtonListener());
         b8.addActionListener(new ButtonListener());
         b9.addActionListener(new ButtonListener());
+
 
 //        b1.addActionListener(new MoneyListener());
 
@@ -92,6 +99,7 @@ public class Button1 extends JFrame{
         //下单
         JButton Order = new JButton("购买");
         Order.addActionListener(new OrderListener());
+
         //投币
         //先用B的写一个显示，然后再用G写投币的按钮，叠加
         JPanel p4 = new JPanel(new GridLayout(1, 3));
@@ -107,13 +115,21 @@ public class Button1 extends JFrame{
         JButton Repay = new JButton("退币");
         Repay.addActionListener(new MoneyListener());
 
-
+//选择冷热
+        JButton Fun = new JButton("冷饮");
+        JButton Fun1 = new JButton("热饮");
+        Fun.addActionListener(new FuncationListener());
+        Fun1.addActionListener(new FuncationListener());
+        JPanel p5 = new JPanel(new GridLayout(1, 3));
+        p5.add(Fun);
+        p5.add(Fun1);
+        p5.add(Order);
         //取货口
         JButton Good = new JButton("取货口");
         Good.addActionListener(new GoodListener());
 
         p3.add(factory,BorderLayout.EAST);
-        p3.add(Order,BorderLayout.SOUTH);
+        p3.add(p5,BorderLayout.SOUTH);
         p3.add(Repay,BorderLayout.WEST);
         p3.add(p4,BorderLayout.CENTER);
         p3.add(jlb,BorderLayout.NORTH);
@@ -130,9 +146,13 @@ public class Button1 extends JFrame{
         con.InsertMoney();*/
 
         //界面上部文字
-        JTextField jtext = new JTextField("自助贩卖机");
-        jtext.setHorizontalAlignment(JTextField.CENTER);
-        container.add(jtext,BorderLayout.NORTH);
+        //JTextField jtext = new JTextField("自助贩卖机");
+        JLabel jl = new JLabel("自助贩卖机");
+        //jtext.setHorizontalAlignment(JTextField.CENTER);
+        jl.setHorizontalAlignment(JLabel.CENTER);
+        container.add(jl,BorderLayout.NORTH);
+
+
 
     }
 
@@ -170,6 +190,21 @@ public class Button1 extends JFrame{
             }
         }
 
+    //功能键
+    class FuncationListener implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            if (e.getActionCommand()=="冷饮"){
+                Component component = new ConcreteDecorator(new ConcretComponent());
+                component.ice();
+            }else if (e.getActionCommand()=="热饮"){
+                Component component = new ConcreteDecorator(new ConcretComponent());
+                component.hot();
+            }
+        }
+    }
+
     //出货按钮
     class GoodListener implements ActionListener {
 
@@ -185,7 +220,7 @@ public class Button1 extends JFrame{
         @Override
         public void actionPerformed(ActionEvent e) {
             try {
-                Button1.this.dispose();
+                //Button1.this.dispose();
                 new GoodsAdd("自动贩卖机系统");
 
             }catch (Exception b){

@@ -4,5 +4,5 @@ package observer;
 public interface Observer {
     public void noGoods(String name);
 
-
+    public void update(String name);
 }

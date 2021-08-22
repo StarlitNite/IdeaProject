@@ -15,6 +15,7 @@ public class Context {
 
     public void setState(State state) {
         this.nowState = state;
+        System.out.println("state"+state);
     }
 
     public Context() {

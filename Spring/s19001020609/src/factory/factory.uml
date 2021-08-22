@@ -3,195 +3,203 @@
   <ID>JAVA</ID>
   <OriginalElement>factory</OriginalElement>
   <nodes>
-    <node x="1213.1686046511627" y="233.0">factory.jdl</node>
-    <node x="779.1686046511627" y="233.0">factory.coffee</node>
-    <node x="-5.0" y="-46.5">factory.GoodsAdd</node>
-    <node x="625.25" y="46.5">factory.DrinkFactory</node>
-    <node x="1647.1686046511627" y="233.0">factory.gsly</node>
-    <node x="842.25" y="46.5">factory.add</node>
-    <node x="0.0" y="244.5">factory.GoodsAdd.addListener</node>
-    <node x="562.1686046511627" y="233.0">factory.cola</node>
-    <node x="2081.1686046511627" y="233.0">factory.btl</node>
-    <node x="1430.1686046511627" y="233.0">factory.bbz</node>
-    <node x="1864.1686046511627" y="233.0">factory.sprite</node>
-    <node x="345.1686046511627" y="233.0">factory.asm</node>
-    <node x="996.1686046511627" y="233.0">factory.nF</node>
+    <node x="475.5000000000002" y="-119.00000000000011">factory.jdl</node>
+    <node x="258.5000000000002" y="-119.00000000000011">factory.coffee</node>
+    <node x="-619.7499999999998" y="154.9999999999999">factory.GoodsAdd</node>
+    <node x="-63.423333333333176" y="-290.0000000000001">factory.DrinkFactory</node>
+    <node x="1355.4950000000001" y="-325.0000000000001">factory.Drink</node>
+    <node x="41.50000000000023" y="-119.00000000000011">factory.gsly</node>
+    <node x="153.57666666666682" y="-290.0000000000001">factory.add</node>
+    <node x="-667.4999999999998" y="-49.000000000000114">factory.GoodsAdd.addListener</node>
+    <node x="909.5000000000002" y="-119.00000000000011">factory.cola</node>
+    <node x="-392.4999999999998" y="-119.00000000000011">factory.btl</node>
+    <node x="692.5000000000002" y="-119.00000000000011">factory.bbz</node>
+    <node x="1126.5000000000002" y="-119.00000000000011">factory.sprite</node>
+    <node x="1343.5000000000002" y="-119.00000000000011">factory.asm</node>
+    <node x="-175.49999999999977" y="-119.00000000000011">factory.nF</node>
   </nodes>
   <notes />
   <edges>
     <edge source="factory.cola" target="factory.DrinkFactory" relationship="REALIZATION">
-      <point x="-49.25" y="-51.5" />
-      <point x="611.4186046511627" y="211.0" />
-      <point x="1236.1686046511627" y="211.0" />
-      <point x="1236.1686046511627" y="181.0" />
-      <point x="773.0" y="181.0" />
+      <point x="-49.25" y="-110.0" />
+      <point x="958.7500000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-169.0000000000001" />
+      <point x="84.32666666666682" y="-169.0000000000001" />
       <point x="49.25" y="28.0" />
     </edge>
-    <edge source="factory.btl" target="factory.add" relationship="REALIZATION">
-      <point x="49.25" y="-51.5" />
-      <point x="2228.9186046511627" y="201.0" />
-      <point x="1317.1686046511627" y="201.0" />
-      <point x="1317.1686046511627" y="171.0" />
-      <point x="924.0" y="171.0" />
+    <edge source="factory.bbz" target="factory.add" relationship="REALIZATION">
+      <point x="49.25" y="-110.0" />
+      <point x="840.2500000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-179.0000000000001" />
+      <point x="235.32666666666682" y="-179.0000000000001" />
       <point x="27.25" y="28.0" />
     </edge>
-    <edge source="factory.bbz" target="factory.add" relationship="REALIZATION">
-      <point x="49.25" y="-51.5" />
-      <point x="1577.9186046511627" y="201.0" />
-      <point x="1317.1686046511627" y="201.0" />
-      <point x="1317.1686046511627" y="171.0" />
-      <point x="924.0" y="171.0" />
+    <edge source="factory.btl" target="factory.add" relationship="REALIZATION">
+      <point x="49.25" y="-110.0" />
+      <point x="-244.74999999999977" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-179.0000000000001" />
+      <point x="235.32666666666682" y="-179.0000000000001" />
       <point x="27.25" y="28.0" />
     </edge>
     <edge source="factory.asm" target="factory.add" relationship="REALIZATION">
-      <point x="49.25" y="-51.5" />
-      <point x="492.9186046511627" y="201.0" />
-      <point x="1317.1686046511627" y="201.0" />
-      <point x="1317.1686046511627" y="171.0" />
-      <point x="924.0" y="171.0" />
+      <point x="0.0" y="-110.0" />
+      <point x="1442.0000000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-179.0000000000001" />
+      <point x="235.32666666666682" y="-179.0000000000001" />
       <point x="27.25" y="28.0" />
     </edge>
     <edge source="factory.sprite" target="factory.DrinkFactory" relationship="REALIZATION">
-      <point x="-49.25" y="-51.5" />
-      <point x="1913.4186046511627" y="211.0" />
-      <point x="1236.1686046511627" y="211.0" />
-      <point x="1236.1686046511627" y="181.0" />
-      <point x="773.0" y="181.0" />
+      <point x="-49.25" y="-110.0" />
+      <point x="1175.7500000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-169.0000000000001" />
+      <point x="84.32666666666682" y="-169.0000000000001" />
       <point x="49.25" y="28.0" />
     </edge>
+    <edge source="factory.asm" target="factory.Drink" relationship="GENERALIZATION">
+      <point x="65.66666666666652" y="-110.0" />
+      <point x="1507.6666666666667" y="-159.0000000000001" />
+      <point x="1415.4950000000001" y="-159.0000000000001" />
+      <point x="0.0" y="63.0" />
+    </edge>
     <edge source="factory.jdl" target="factory.add" relationship="REALIZATION">
-      <point x="49.25" y="-51.5" />
-      <point x="1360.9186046511627" y="201.0" />
-      <point x="1317.1686046511627" y="201.0" />
-      <point x="1317.1686046511627" y="171.0" />
-      <point x="924.0" y="171.0" />
+      <point x="49.25" y="-110.0" />
+      <point x="623.2500000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-179.0000000000001" />
+      <point x="235.32666666666682" y="-179.0000000000001" />
       <point x="27.25" y="28.0" />
     </edge>
     <edge source="factory.GoodsAdd" target="factory.GoodsAdd.addListener" relationship="CREATE">
-      <point x="-53.0" y="74.5" />
-      <point x="25.5" y="102.5" />
-      <point x="-102.0" y="-40.0" />
+      <point x="53.0" y="-63.0" />
+      <point x="-487.2499999999998" y="127.99999999999989" />
+      <point x="-454.9999999999998" y="127.99999999999989" />
+      <point x="85.0" y="40.0" />
     </edge>
     <edge source="factory.coffee" target="factory.DrinkFactory" relationship="REALIZATION">
-      <point x="-49.25" y="-51.5" />
-      <point x="828.4186046511627" y="211.0" />
-      <point x="1236.1686046511627" y="211.0" />
-      <point x="1236.1686046511627" y="181.0" />
-      <point x="773.0" y="181.0" />
-      <point x="49.25" y="28.0" />
-    </edge>
-    <edge source="factory.bbz" target="factory.DrinkFactory" relationship="REALIZATION">
-      <point x="-49.25" y="-51.5" />
-      <point x="1479.4186046511627" y="211.0" />
-      <point x="1236.1686046511627" y="211.0" />
-      <point x="1236.1686046511627" y="181.0" />
-      <point x="773.0" y="181.0" />
+      <point x="-49.25" y="-110.0" />
+      <point x="307.7500000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-169.0000000000001" />
+      <point x="84.32666666666682" y="-169.0000000000001" />
       <point x="49.25" y="28.0" />
     </edge>
     <edge source="factory.btl" target="factory.DrinkFactory" relationship="REALIZATION">
-      <point x="-49.25" y="-51.5" />
-      <point x="2130.4186046511627" y="211.0" />
-      <point x="1236.1686046511627" y="211.0" />
-      <point x="1236.1686046511627" y="181.0" />
-      <point x="773.0" y="181.0" />
+      <point x="-49.25" y="-110.0" />
+      <point x="-343.2499999999998" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-169.0000000000001" />
+      <point x="84.32666666666682" y="-169.0000000000001" />
       <point x="49.25" y="28.0" />
     </edge>
-    <edge source="factory.asm" target="factory.DrinkFactory" relationship="REALIZATION">
-      <point x="-49.25" y="-51.5" />
-      <point x="394.4186046511627" y="211.0" />
-      <point x="1236.1686046511627" y="211.0" />
-      <point x="1236.1686046511627" y="181.0" />
-      <point x="773.0" y="181.0" />
+    <edge source="factory.bbz" target="factory.DrinkFactory" relationship="REALIZATION">
+      <point x="-49.25" y="-110.0" />
+      <point x="741.7500000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-169.0000000000001" />
+      <point x="84.32666666666682" y="-169.0000000000001" />
       <point x="49.25" y="28.0" />
     </edge>
     <edge source="factory.coffee" target="factory.add" relationship="REALIZATION">
-      <point x="49.25" y="-51.5" />
-      <point x="926.9186046511627" y="201.0" />
-      <point x="1317.1686046511627" y="201.0" />
-      <point x="1317.1686046511627" y="171.0" />
-      <point x="924.0" y="171.0" />
+      <point x="49.25" y="-110.0" />
+      <point x="406.2500000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-179.0000000000001" />
+      <point x="235.32666666666682" y="-179.0000000000001" />
       <point x="27.25" y="28.0" />
     </edge>
+    <edge source="factory.asm" target="factory.DrinkFactory" relationship="REALIZATION">
+      <point x="-65.66666666666674" y="-110.0" />
+      <point x="1376.3333333333335" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-169.0000000000001" />
+      <point x="84.32666666666682" y="-169.0000000000001" />
+      <point x="49.25" y="28.0" />
+    </edge>
     <edge source="factory.GoodsAdd.addListener" target="factory.GoodsAdd" relationship="INNER_CLASS">
-      <point x="-51.0" y="-40.0" />
-      <point x="76.5" y="211.0" />
-      <point x="74.5" y="211.0" />
-      <point x="0.0" y="74.5" />
+      <point x="-85.0" y="40.0" />
+      <point x="-624.9999999999998" y="127.99999999999989" />
+      <point x="-593.2499999999998" y="127.99999999999989" />
+      <point x="-53.0" y="-63.0" />
     </edge>
     <edge source="factory.sprite" target="factory.add" relationship="REALIZATION">
-      <point x="49.25" y="-51.5" />
-      <point x="2011.9186046511627" y="201.0" />
-      <point x="1317.1686046511627" y="201.0" />
-      <point x="1317.1686046511627" y="171.0" />
-      <point x="924.0" y="171.0" />
+      <point x="49.25" y="-110.0" />
+      <point x="1274.2500000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-179.0000000000001" />
+      <point x="235.32666666666682" y="-179.0000000000001" />
       <point x="27.25" y="28.0" />
     </edge>
     <edge source="factory.GoodsAdd.addListener" target="factory.add" relationship="DEPENDENCY">
-      <point x="102.0" y="-40.0" />
-      <point x="229.5" y="191.0" />
-      <point x="869.5" y="191.0" />
+      <point x="63.75" y="-40.0" />
+      <point x="-476.2499999999998" y="-159.0000000000001" />
+      <point x="180.82666666666682" y="-159.0000000000001" />
       <point x="-27.25" y="28.0" />
     </edge>
     <edge source="factory.nF" target="factory.add" relationship="REALIZATION">
-      <point x="49.25" y="-51.5" />
-      <point x="1143.9186046511627" y="201.0" />
-      <point x="1317.1686046511627" y="201.0" />
-      <point x="1317.1686046511627" y="171.0" />
-      <point x="924.0" y="171.0" />
+      <point x="49.25" y="-110.0" />
+      <point x="-27.749999999999773" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-179.0000000000001" />
+      <point x="235.32666666666682" y="-179.0000000000001" />
       <point x="27.25" y="28.0" />
     </edge>
     <edge source="factory.cola" target="factory.add" relationship="REALIZATION">
-      <point x="49.25" y="-51.5" />
-      <point x="709.9186046511627" y="201.0" />
-      <point x="1317.1686046511627" y="201.0" />
-      <point x="1317.1686046511627" y="171.0" />
-      <point x="924.0" y="171.0" />
+      <point x="49.25" y="-110.0" />
+      <point x="1057.2500000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-179.0000000000001" />
+      <point x="235.32666666666682" y="-179.0000000000001" />
       <point x="27.25" y="28.0" />
     </edge>
     <edge source="factory.nF" target="factory.DrinkFactory" relationship="REALIZATION">
-      <point x="-49.25" y="-51.5" />
-      <point x="1045.4186046511627" y="211.0" />
-      <point x="1236.1686046511627" y="211.0" />
-      <point x="1236.1686046511627" y="181.0" />
-      <point x="773.0" y="181.0" />
+      <point x="-49.25" y="-110.0" />
+      <point x="-126.24999999999977" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-169.0000000000001" />
+      <point x="84.32666666666682" y="-169.0000000000001" />
       <point x="49.25" y="28.0" />
     </edge>
     <edge source="factory.jdl" target="factory.DrinkFactory" relationship="REALIZATION">
-      <point x="-49.25" y="-51.5" />
-      <point x="1262.4186046511627" y="211.0" />
-      <point x="1236.1686046511627" y="211.0" />
-      <point x="1236.1686046511627" y="181.0" />
-      <point x="773.0" y="181.0" />
+      <point x="-49.25" y="-110.0" />
+      <point x="524.7500000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-169.0000000000001" />
+      <point x="84.32666666666682" y="-169.0000000000001" />
       <point x="49.25" y="28.0" />
     </edge>
     <edge source="factory.GoodsAdd.addListener" target="factory.DrinkFactory" relationship="DEPENDENCY">
-      <point x="51.0" y="-40.0" />
-      <point x="178.5" y="181.0" />
-      <point x="674.5" y="181.0" />
+      <point x="-63.75" y="-40.0" />
+      <point x="-603.7499999999998" y="-169.0000000000001" />
+      <point x="-14.173333333333176" y="-169.0000000000001" />
       <point x="-49.25" y="28.0" />
     </edge>
     <edge source="factory.gsly" target="factory.DrinkFactory" relationship="REALIZATION">
-      <point x="-49.25" y="-51.5" />
-      <point x="1696.4186046511627" y="211.0" />
-      <point x="1236.1686046511627" y="211.0" />
-      <point x="1236.1686046511627" y="181.0" />
-      <point x="773.0" y="181.0" />
+      <point x="-49.25" y="-110.0" />
+      <point x="90.75000000000023" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-139.0000000000001" />
+      <point x="498.5000000000002" y="-169.0000000000001" />
+      <point x="84.32666666666682" y="-169.0000000000001" />
       <point x="49.25" y="28.0" />
     </edge>
     <edge source="factory.GoodsAdd.addListener" target="factory.GoodsAdd" relationship="DEPENDENCY">
-      <point x="0.0" y="-40.0" />
-      <point x="53.0" y="74.5" />
+      <point x="0.0" y="40.0" />
+      <point x="0.0" y="-63.0" />
     </edge>
     <edge source="factory.gsly" target="factory.add" relationship="REALIZATION">
-      <point x="49.25" y="-51.5" />
-      <point x="1794.9186046511627" y="201.0" />
-      <point x="1317.1686046511627" y="201.0" />
-      <point x="1317.1686046511627" y="171.0" />
-      <point x="924.0" y="171.0" />
+      <point x="49.25" y="-110.0" />
+      <point x="189.25000000000023" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-149.0000000000001" />
+      <point x="579.0000000000002" y="-179.0000000000001" />
+      <point x="235.32666666666682" y="-179.0000000000001" />
       <point x="27.25" y="28.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="438.0" y="92.5" />
+  <settings layout="Hierarchic" zoom="0.5499999999999999" showDependencies="true" x="480.54545454545473" y="29.181818181818244" />
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>

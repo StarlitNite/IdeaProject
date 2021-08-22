@@ -3,10 +3,14 @@ package state;
 import Singleton.OrderNo;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class GiveGoods implements State ,Cloneable {
     private final Context context;
     public static String goods = null;
+    public static int muchMoney = 0;
 
 
     public GiveGoods(Context context) {
@@ -40,16 +44,37 @@ public class GiveGoods implements State ,Cloneable {
         JOptionPane.showMessageDialog(null, "正在出货，请稍后!", "信息", JOptionPane.INFORMATION_MESSAGE);
         System.out.println("您已获得"+goods);
         JOptionPane.showMessageDialog(null, "您已获得"+goods, "信息", JOptionPane.INFORMATION_MESSAGE);
+
+        int res = JOptionPane.showConfirmDialog(null, "是否需要继续购买物品","信息" , JOptionPane.YES_NO_OPTION);
+        if (res == JOptionPane.YES_OPTION){
+            if (muchMoney>0){
+                HasMoney.muchcount = muchMoney;
+                System.out.println(HasMoney.muchcount+"GiveGoods.OutGoods");
+                context.setState(context.HasMoney);
+            }else {
+                JOptionPane.showMessageDialog(null, "余额不足，请投币", "信息", JOptionPane.INFORMATION_MESSAGE);
+                context.setState(context.NoMoney);
+            }
+
+        }else {
+            JOptionPane.showMessageDialog(null, "请您退币", "信息", JOptionPane.INFORMATION_MESSAGE);
+        }
+
         OrderNo.instance = null;
     }
 
     @Override
     public int OutMoney() {
 
-        System.out.println("已退币"+OrderNo.muchcount);
-        JOptionPane.showMessageDialog(null, "已退币"+OrderNo.muchcount+"元", "信息", JOptionPane.INFORMATION_MESSAGE);
+        System.out.println("已退币"+muchMoney);
+        JOptionPane.showMessageDialog(null, "已退币"+muchMoney+"元", "信息", JOptionPane.INFORMATION_MESSAGE);
+        HasMoney.icount = 0;
+        context.setState(context.NoMoney);
+        OrderNo.instance = null;
         return 0;
 
     }
+
+
 
 }
