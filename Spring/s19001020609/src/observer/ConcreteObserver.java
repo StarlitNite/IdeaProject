@@ -17,7 +17,7 @@ public class ConcreteObserver implements Observer{
     }
 
     @Override
-    public void update(String name) {
+    public void update(JButton button) {
         new Button().setBackground(Color.red);
 
     }

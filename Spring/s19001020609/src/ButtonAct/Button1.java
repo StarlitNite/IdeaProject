@@ -6,8 +6,7 @@ import Decorator.ConcretComponent;
 import Decorator.ConcreteDecorator;
 import Singleton.OrderNo;
 import factory.*;
-import observer.ConcreteSubject;
-import observer.Observer;
+import observer.*;
 import state.Context;
 import state.HasMoney;
 
@@ -22,7 +21,17 @@ public class Button1 extends JFrame{
 
     Context context = new Context();
     public JLabel jlb = new JLabel();
-
+    ConcreteSubject cs = new ConcreteSubject();
+    ConcreteObserver co = new ConcreteObserver();
+    asmSub as = new asmSub();
+    bbzSub bs = new bbzSub();
+    btlSub bts = new btlSub();
+    coffeeSub cfs = new coffeeSub();
+    colaSub cos = new colaSub();
+    gslySub gs = new gslySub();
+    jdlSub js = new jdlSub();
+    nfSub ns = new nfSub();
+    spriteSub ss = new spriteSub();
 
     public Button1(){
         Container container = getContentPane();
@@ -59,6 +68,27 @@ public class Button1 extends JFrame{
         b7.addActionListener(new ButtonListener());
         b8.addActionListener(new ButtonListener());
         b9.addActionListener(new ButtonListener());
+        //添加观察者
+        cos.register(b1);
+        ss.register(b2);
+        cfs.register(b3);
+        ns.register(b4);
+        as.register(b5);
+        bts.register(b6);
+        js.register(b7);
+        bs.register(b8);
+        gs.register(b9);
+        // 没货时 notify   循环判断每个物品的余量
+        cos.cojudge();
+        ss.spjudge();
+        cfs.cfjudge();
+        ns.nfjudge();
+        as.asmjudge();
+        bts.btljudge();
+        js.jdljudge();
+        bs.bbzjudge();
+        gs.gsjudge();
+
 
 
 //        b1.addActionListener(new MoneyListener());

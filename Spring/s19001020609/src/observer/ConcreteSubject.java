@@ -7,12 +7,13 @@ import state.HasMoney;
 import state.State;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.ArrayList;
 
-/*具体主题类*/
+/*具体主题类,总*/
 
 public class ConcreteSubject implements Subject {
-    
+
 
     public static int num = 0;
     public static String name = null;
@@ -46,22 +47,24 @@ public class ConcreteSubject implements Subject {
         }
     }
 
+    public ArrayList<JButton> observers = new ArrayList<>();
 
 
     @Override
-    public void register(Observer observer) {
-        observers.add(observer);
+    public void register(JButton button) {
+        observers.add(button);
     }
 
     @Override
-    public void unregister(Observer observer) {
-        observers.add(observer);
+    public void unregister(JButton button) {
+        observers.remove(button);
     }
+
 
     @Override
     public void notifyObserver() {
-        for (Observer observer: observers) {
-            observer.update(name);
+        for (JButton observer: observers) {
+           observer.update(new Button().getGraphics());
         }
     }
 
