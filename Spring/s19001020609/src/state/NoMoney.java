@@ -19,7 +19,7 @@ public class NoMoney implements State {
 
 
     public void ChooseGoods(String name,int price,int num) {
-
+        HasMoney.icount = 0;
         JOptionPane.showMessageDialog(null, "请投币后再选择商品！", "信息", JOptionPane.INFORMATION_MESSAGE);
 
     }
@@ -31,6 +31,7 @@ public class NoMoney implements State {
 
     @Override
     public int OutMoney() {
+        HasMoney.icount = 0;
         JOptionPane.showMessageDialog(null, "尚未投币，无法退币", "信息", JOptionPane.INFORMATION_MESSAGE);
         return 0;
     }

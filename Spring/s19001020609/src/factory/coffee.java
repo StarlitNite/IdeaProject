@@ -1,7 +1,7 @@
 package factory;
 
 public class coffee implements DrinkFactory,add{
-    private static int num = 10;
+    public static int num = 10;
     private int price = 5;
     private String name = "雀巢咖啡";
 

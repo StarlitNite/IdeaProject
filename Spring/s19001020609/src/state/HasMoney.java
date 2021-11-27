@@ -4,6 +4,7 @@ import Singleton.OrderNo;
 import observer.ConcreteObserver;
 import observer.ConcreteSubject;
 
+
 import javax.swing.*;
 import java.util.List;
 import java.util.Map;
@@ -13,6 +14,7 @@ public class HasMoney implements State{
 
     public static int icount;//总币数
     public static int muchcount;//剩余币数
+
 
 
     public HasMoney(Context context) {
@@ -59,6 +61,7 @@ public class HasMoney implements State{
         cs.muchmoney = muchcount;
         cs.judge();//判断是否有货
 
+        //
         System.out.println("您已选择"+name);
         System.out.println("价格"+price+"元");
 

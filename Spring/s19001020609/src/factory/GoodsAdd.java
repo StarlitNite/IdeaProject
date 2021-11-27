@@ -1,12 +1,22 @@
 package factory;
 
+import observer.*;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class GoodsAdd extends JFrame {
-
+    asmSub as = new asmSub();
+    bbzSub bs = new bbzSub();
+    btlSub bts = new btlSub();
+    coffeeSub cfs = new coffeeSub();
+    colaSub cos = new colaSub();
+    gslySub gs = new gslySub();
+    jdlSub js = new jdlSub();
+    nfSub ns = new nfSub();
+    spriteSub ss = new spriteSub();
 
 
     JLabel factory = new JLabel("工厂名");
@@ -44,6 +54,16 @@ public class GoodsAdd extends JFrame {
             dFactory = (DrinkFactory) obj;
             add = (add) dFactory.MakeDrink();
             add.add();
+
+                cos.cojudge();
+                ss.spjudge();
+                cfs.cfjudge();
+                ns.nfjudge();
+                as.asmjudge();
+                bts.btljudge();
+                js.jdljudge();
+                bs.bbzjudge();
+                gs.gsjudge();
             } catch (Exception b) {
                 System.out.println(b.getMessage()+"错误信息");
             }

@@ -1,7 +1,7 @@
 package factory;
 
 public class btl implements DrinkFactory,add{
-    private static int num = 10;
+    public static int num = 10;
     private int price = 4;
     private String name = "宝特力矿泉水";
 

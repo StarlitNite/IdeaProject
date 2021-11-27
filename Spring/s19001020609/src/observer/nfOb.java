@@ -13,4 +13,9 @@ public class nfOb implements Observer{
     public void update(JButton button) {
         button.setBackground(Color.red);
     }
+
+    @Override
+    public void reup(JButton button) {
+        button.setBackground(null);
+    }
 }

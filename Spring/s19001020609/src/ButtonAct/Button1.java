@@ -15,6 +15,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 public class Button1 extends JFrame{
 
@@ -88,9 +89,6 @@ public class Button1 extends JFrame{
         js.jdljudge();
         bs.bbzjudge();
         gs.gsjudge();
-
-
-
 //        b1.addActionListener(new MoneyListener());
 
         JPanel p2 = new JPanel();

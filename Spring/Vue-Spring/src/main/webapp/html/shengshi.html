@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>省市联动</title>
+
+</head>
+<body>
+<select id="province">
+  <option value="">请选择省份</option>
+</select>
+<select id="city">
+  <option value="">请选择城市</option>
+</select>
+<select id="area">
+  <option value="">请选择区县</option>
+</select>
+</body>
+<script>
+  var provinces=[];
+  provinces["江苏省"]=["南京市","苏州市"];
+  provinces["甘肃省"]=["兰州市","白银市","金昌市"];
+  provinces["浙江省"]=["杭州市","宁波市","温州市","台州市"];
+  provinces["北京市"]=["北京市"];
+
+  var citys=[];
+  citys["南京市"]=["玄武区","雨花台区","六合区"]
+  citys["苏州市"]=["姑苏区","吴江区"]
+  citys["兰州市"]=["七里河区","安宁区","西固区","城关区"]
+  citys["白银市"]=["平川区","景泰县","靖远县","白银区","会宁县"]
+  citys["金昌市"]=["金川区","永昌县"]
+  citys["杭州市"]=["余杭区","上城区","下城区","江干区","拱墅区","西湖区"]
+  citys["宁波市"]=["海曙区","江北区","北仑区","镇海区","鄞州区"]
+  citys["温州市"]=["鹿城区","龙湾区","瓯海区","洞头区"]
+  citys["台州市"]=["椒江区","黄岩区","路桥区"]
+  citys["北京市"]=["东城区","西城区","朝阳区","丰台区","石景山区","海淀区","门头沟区","房山区","通州区"]
+
+  var oprovince = document.getElementById('province');
+  var ocity = document.getElementById('city');
+
+  for(var i = 0; i < provinces.length; i++) {
+      //新的option
+      var option = new Option()
+      //赋值
+      option.appendChild(document.createTextNode(provinces[i]))
+      //插入
+      oprovince.appendChild(option)
+  }
+  citys.addEventListener('change', function(){
+      //另城市列表变为初始状态，可以注释掉查看效果
+      ocity.options.length = 1;
+      //如果国家选择不为默认值
+      if(oprovince.selectedIndex != 0) {
+          //遍历相应国家的城市
+          for (var j = 0; j < citys[oprovince.selectedIndex - 1].length; j++) {
+              var option2 = new Option(citys[oprovince.selectedIndex - 1][j], citys[oprovince.selectedIndex - 1][j])
+              ocity.options.add(option2)
+          }
+      }
+  })
+</script>
+</html>

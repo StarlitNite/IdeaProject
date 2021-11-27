@@ -19,7 +19,7 @@ public class userController {
 
     //登陆
     @PostMapping("/login")
-    public ApiResponse login(@RequestBody user user){
+    public ApiResponse login( user user){
 
         try {
             user userDB = userService.login(user);

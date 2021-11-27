@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stufood.dao.MenuDao">
+
+    <!--查询菜单列表-->
+    <select id="MenuTree" resultType="com.stufood.entity.Menu">
+        select * from menu;
+    </select>
+    <!--分页查询（无条件）-->
+    <select id="getUserNum" resultType="double">
+        select count(*) from user;
+    </select>
+    <!---->
+    <select id="getUserList"   resultType="com.stufood.entity.User">/*pageSize每一页有多少数据，pageIndex页码索引*/
+        select * from user
+            <if test="query != null and query!=''">/*如果传入参数有query（userName）,则加入用户名模糊查询*/
+                where userName like '%${query}%'
+            </if>
+                order by userId asc limit ${pageSize} offset ${currentPage};
+    </select>
+    <!--添加用户-->
+    <insert id="addUser" parameterType="com.stufood.model.dto.addUserInfo">
+        insert into user(userName,userPwd,nickName,tel,userAddress) values ('${userName}','${userPwd}','${nickName}','${tel}','${userAddress}')
+    </insert>
+    <!--修改用户-->
+    <!--根据ID获取用户信息-->
+    <select id="getUserById" resultType="com.stufood.entity.User">
+        select * from user where userId=${userId}
+    </select>
+    <update id="editUserById" parameterType="com.stufood.model.dto.editUserInfo">
+        update user set nickName='${editUserInfo.nickName}',tel='${editUserInfo.tel}',userAddress='${editUserInfo.userAddress}' where userId=${userId}
+    </update>
+
+    <!--根据用户ID删除用户-->
+    <delete id="delUserById">
+        delete from user where userId=${userId}
+    </delete>
+
+</mapper>

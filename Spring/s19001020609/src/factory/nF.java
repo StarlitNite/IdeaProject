@@ -1,7 +1,7 @@
 package factory;
 
 public class nF implements DrinkFactory,add{
-    private static int num = 10;
+    public static int num = 10;
     private int price = 2;
     private String name = "农夫山泉";
 
@@ -45,7 +45,7 @@ public class nF implements DrinkFactory,add{
     @Override
     public void add() {
         System.out.println("往贩卖机中加入了一瓶农夫山泉。。。");
-        num+=1;
+        this.setNum(num+1);/*num+=1;*/
         System.out.println("贩卖机中剩余"+num+"瓶"+name);
     }
 }

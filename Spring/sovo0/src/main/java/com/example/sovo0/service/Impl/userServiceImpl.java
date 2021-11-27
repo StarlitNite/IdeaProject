@@ -36,6 +36,7 @@ public class userServiceImpl implements userService {
         }
     }
 
+
     @Override
     public int register(user user) {
         user userDB = userMapper.FindUserNameByName(user.getUsername());

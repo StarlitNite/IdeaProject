@@ -8,7 +8,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class asmSub implements Subject{
-    public ArrayList<JButton> observers = new ArrayList<>();
+    public static ArrayList<JButton> observers = new ArrayList<>();
     @Override
     public  void register(JButton button) {
         observers.add(button);
@@ -20,8 +20,10 @@ public class asmSub implements Subject{
     }
 
     public void asmjudge(){
-        if ( new asm().getNum()==0){
+        if (  asm.num==0){
             notifyObserver();
+        }else {
+            unno();
         }
     }
 
@@ -29,7 +31,16 @@ public class asmSub implements Subject{
     public void notifyObserver() {
         for (JButton observer: observers) {
             System.out.println(observer);
-            observer.update(new Button().getGraphics());
+            new asmOb().update(observer);
         }
+    }
+
+    @Override
+    public void unno() {
+        for (JButton observer: observers) {
+
+            new asmOb().reup(observer);
+        }
+
     }
 }

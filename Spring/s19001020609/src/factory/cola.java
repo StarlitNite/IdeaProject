@@ -1,7 +1,7 @@
 package factory;
 
 public class cola implements DrinkFactory,add{
-    private static int num = 10;
+    public static int num = 10;
     private int price = 3;
     private String name = "可乐";
 

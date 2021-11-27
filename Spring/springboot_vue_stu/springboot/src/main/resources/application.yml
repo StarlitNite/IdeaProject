@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/stufood?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+server:
+  port: 8083
+config:
+  token:
+    secret: abc
+    expireTime: 3600
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.stufood.entity

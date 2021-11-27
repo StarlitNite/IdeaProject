@@ -12,5 +12,11 @@ public class jdlOb implements Observer{
     @Override
     public void update(JButton button) {
         button.setBackground(Color.red);
+
+    }
+
+    @Override
+    public void reup(JButton button) {
+        button.setBackground(null);
     }
 }

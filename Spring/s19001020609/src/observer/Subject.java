@@ -14,4 +14,6 @@ public interface Subject {
 
     //通知观察者更新
     public void notifyObserver();
+    //
+    public void unno();
 }

@@ -35,8 +35,10 @@ public class ConcreteSubject implements Subject {
 
 
             OrderNo orderNo = new OrderNo();
+            orderNo.name = name;
             orderNo.count = price;
             orderNo.num = num;
+
 
 
         }else {
@@ -63,13 +65,12 @@ public class ConcreteSubject implements Subject {
 
     @Override
     public void notifyObserver() {
-        for (JButton observer: observers) {
-           observer.update(new Button().getGraphics());
-        }
     }
 
+    @Override
+    public void unno() {
 
-
+    }
 
 
 }

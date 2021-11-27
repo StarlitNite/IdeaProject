@@ -8,7 +8,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class gslySub implements Subject{
-    public ArrayList<JButton> observers = new ArrayList<>();
+    public static ArrayList<JButton> observers = new ArrayList<>();
     @Override
     public  void register(JButton button) {
         observers.add(button);
@@ -19,14 +19,24 @@ public class gslySub implements Subject{
         observers.add(button);
     }
     public void gsjudge(){
-        if ( new gsly().getNum()==0){
+        if ( gsly.num==0){
             notifyObserver();
+        }else {
+            unno();
         }
     }
     @Override
     public void notifyObserver() {
         for (JButton observer: observers) {
             observer.update(new Button().getGraphics());
+        }
+    }
+
+    @Override
+    public void unno() {
+        for (JButton observer: observers) {
+
+            new gslyOb().reup(observer);
         }
     }
 }

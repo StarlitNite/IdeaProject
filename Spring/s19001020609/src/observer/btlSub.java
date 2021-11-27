@@ -7,11 +7,13 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class btlSub implements Subject{
-    public ArrayList<JButton> observers = new ArrayList<>();
+    public static ArrayList<JButton> observers = new ArrayList<>();
 
     public void btljudge(){
-        if ( new btl().getNum()==0){
+        if ( btl.num==0){
             notifyObserver();
+        }else {
+            unno();
         }
     }
     @Override
@@ -28,6 +30,14 @@ public class btlSub implements Subject{
     public void notifyObserver() {
         for (JButton observer: observers) {
             observer.update(new Button().getGraphics());
+        }
+    }
+
+    @Override
+    public void unno() {
+        for (JButton observer: observers) {
+
+            new btlOb().reup(observer);
         }
     }
 }

@@ -22,6 +22,11 @@ public class ConcreteObserver implements Observer{
 
     }
 
+    @Override
+    public void reup(JButton button) {
+
+    }
+
 
 
    /* @Override

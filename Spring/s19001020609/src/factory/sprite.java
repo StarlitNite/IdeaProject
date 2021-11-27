@@ -1,7 +1,7 @@
 package factory;
 
 public class sprite implements DrinkFactory,add{
-    private static int num = 10;
+    public static int num = 10;
     private int price = 3;
     private String name = "雪碧";
 

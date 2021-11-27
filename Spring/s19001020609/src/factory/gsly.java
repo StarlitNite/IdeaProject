@@ -1,7 +1,7 @@
 package factory;
 
 public class gsly implements DrinkFactory,add{
-    private static int num = 10;
+    public static int num = 10;
     private int price = 4;
     private String name = "果蔬乐园";
 

@@ -1,7 +1,7 @@
 package factory;
 
 public class jdl implements DrinkFactory,add{
-    private static int num = 0;
+    public static int num = 1;
     private int price = 6;
     private String name = "佳得乐运动饮料";
     @Override
@@ -9,7 +9,7 @@ public class jdl implements DrinkFactory,add{
         return new jdl();
     }
 
-    public int getNum() {
+    public static int getNum() {
         return num;
     }
 
@@ -44,7 +44,7 @@ public class jdl implements DrinkFactory,add{
     @Override
     public void add() {
         System.out.println("往贩卖机中加入了一瓶佳得乐运动饮料。。。");
-        num+=1;
+        num+=1;/*.num+=1;*/
         System.out.println("贩卖机中剩余"+num+"瓶"+name);
     }
 }

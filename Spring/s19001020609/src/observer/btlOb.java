@@ -11,6 +11,11 @@ public class btlOb implements Observer{
 
     @Override
     public void update(JButton button) {
-        new Button().setBackground(Color.red);
+        button.setBackground(Color.red);
+    }
+
+    @Override
+    public void reup(JButton button) {
+        button.setBackground(null);
     }
 }

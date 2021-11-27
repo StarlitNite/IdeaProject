@@ -1,6 +1,8 @@
 package state;
 
+import ButtonAct.Button1;
 import Singleton.OrderNo;
+import observer.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,6 +13,16 @@ public class GiveGoods implements State ,Cloneable {
     private final Context context;
     public static String goods = null;
     public static int muchMoney = 0;
+
+    asmSub as = new asmSub();
+    bbzSub bs = new bbzSub();
+    btlSub bts = new btlSub();
+    coffeeSub cfs = new coffeeSub();
+    colaSub cos = new colaSub();
+    gslySub gs = new gslySub();
+    jdlSub js = new jdlSub();
+    nfSub ns = new nfSub();
+    spriteSub ss = new spriteSub();
 
 
     public GiveGoods(Context context) {
@@ -44,7 +56,6 @@ public class GiveGoods implements State ,Cloneable {
         JOptionPane.showMessageDialog(null, "正在出货，请稍后!", "信息", JOptionPane.INFORMATION_MESSAGE);
         System.out.println("您已获得"+goods);
         JOptionPane.showMessageDialog(null, "您已获得"+goods, "信息", JOptionPane.INFORMATION_MESSAGE);
-
         int res = JOptionPane.showConfirmDialog(null, "是否需要继续购买物品","信息" , JOptionPane.YES_NO_OPTION);
         if (res == JOptionPane.YES_OPTION){
             if (muchMoney>0){
@@ -59,6 +70,18 @@ public class GiveGoods implements State ,Cloneable {
         }else {
             JOptionPane.showMessageDialog(null, "请您退币", "信息", JOptionPane.INFORMATION_MESSAGE);
         }
+
+
+
+        cos.cojudge();
+        ss.spjudge();
+        cfs.cfjudge();
+        ns.nfjudge();
+        as.asmjudge();
+        bts.btljudge();
+        js.jdljudge();
+        bs.bbzjudge();
+        gs.gsjudge();
 
         OrderNo.instance = null;
     }

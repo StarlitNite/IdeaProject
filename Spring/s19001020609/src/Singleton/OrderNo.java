@@ -1,5 +1,6 @@
 package Singleton;
 
+import factory.*;
 import state.Context;
 import state.GiveGoods;
 import state.HasMoney;
@@ -9,6 +10,7 @@ import javax.swing.*;
 public class OrderNo {
     public static OrderNo instance = null;
     private int No = 1;
+    public static String name;
     public static int muchcount = 0;//买完东西后剩余的钱
     public static int count = 0;//相应物品的钱数
     public static int num = 0;
@@ -28,10 +30,29 @@ public class OrderNo {
             }else{
                 GiveGoods gg = new GiveGoods(context);
                 gg.muchMoney = muchcount;
-
-                num-=1;//减去饮品的数量
+                if (name .equals("可乐")){
+                    cola.num-=1;
+//                    num-=1;//减去饮品的数量
+                }else if (name.equals("阿萨姆奶茶")){
+                    asm.num-=1;
+                }else if (name.equals("佳得乐运动饮料")){
+                    jdl.num-=1;
+                }else if (name.equals("八宝粥")){
+                    bbz.num-=1;
+                }else if (name.equals("雀巢咖啡")){
+                    coffee.num-=1;
+                }else if (name.equals("果蔬乐园")){
+                    gsly.num-=1;
+                }else if (name.equals("宝特力矿泉水")){
+                    btl.num-=1;
+                }else if (name.equals("农夫山泉")){
+                    nF.num-=1;
+                }else if (name.equals("雪碧")){
+                    sprite.num-=1;
+                }
 
                 instance = new OrderNo();
+                JOptionPane.showMessageDialog(null, "购买成功！请在取货口处取得您的商品", "信息", JOptionPane.INFORMATION_MESSAGE);
                 System.out.println(instance.getNo());
             }
 
