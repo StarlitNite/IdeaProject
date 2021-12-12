@@ -7,9 +7,11 @@ import lombok.Data;
  */
 @Data
 public class Food {
-    private String foodid;
+    private String foodId;
+    private String shopId;
     private String foodName;
+    private String catId;
     private Integer Price;
     private String material;
-    private String photo;
+    private String picture;
 }

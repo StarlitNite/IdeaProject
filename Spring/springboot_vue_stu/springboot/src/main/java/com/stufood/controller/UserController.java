@@ -34,6 +34,4 @@ public class UserController {
         map.put("token",jwt);
         return Result.ok("登录成功",map);
     }
-
-
 }

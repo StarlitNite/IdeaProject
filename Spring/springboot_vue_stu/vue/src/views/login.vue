@@ -74,6 +74,7 @@ export default {
         /**
          * 跳转到home页面
          */
+
         this.$router.push('/home');
       })
     }

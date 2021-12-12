@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stufood.dao.FoodDao">
+
+    <select id="getFoodList" resultType="com.stufood.entity.Food">
+        select * from food
+        <if test="query != null and query!=''">/*如果传入参数有query（userName）,则加入用户名模糊查询*/
+            where foodName like '%${query}%'
+        </if>
+        order by foodId asc limit ${pageSize} offset ${currentPage};
+    </select>
+    <select id="getFoodNum" resultType="double">
+        select count(*) from food
+    </select>
+
+    <!--添加菜品-->
+    <insert id="addFood" parameterType="com.stufood.model.dto.addFoodInfo">
+        insert into food(foodName,price,material,picture) values ('${foodName}','${price}','${material}','${picture}')
+    </insert>
+    <!--修改菜品-->
+    <!--根据ID获取菜品信息-->
+    <select id="getFoodById" resultType="com.stufood.entity.Food">
+        select * from food where foodId=${foodId}
+    </select>
+    <update id="editFoodById" parameterType="com.stufood.model.dto.editFoodInfo">
+        update food set  price='${editFoodInfo.price}',material='${editFoodInfo.material}',picture='${editFoodInfo.picture}' where foodId=${foodId}
+    </update>
+
+    <!--根据用户ID删除用户-->
+    <delete id="delFoodById">
+        delete from food where foodId=${foodId}
+    </delete>
+</mapper>

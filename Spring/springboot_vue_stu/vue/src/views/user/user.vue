@@ -12,7 +12,7 @@
 <!--搜索与添加区-->
      <el-row :gutter="20" >
           <el-col :span="8">
-            <el-input placeholder="请输入内容" v-model="quaryInfo.query" clearable @clear="getUserList">
+            <el-input placeholder="请输入内容" v-model="queryInfo.query" clearable @clear="getUserList">
               <el-button slot="append" icon="el-icon-search" @click="getUserList"></el-button>
             </el-input>
           </el-col>
@@ -49,9 +49,9 @@
       <el-pagination
           @size-change="handleSizeChange"
           @current-change="handleCurrentChange"
-          :current-page="quaryInfo.currentPage+1"
+          :current-page="queryInfo.currentPage+1"
           :page-sizes="[1,2,3,5,10]"
-          :page-size="quaryInfo.pageSize"
+          :page-size="queryInfo.pageSize"
           layout="total, sizes, prev, pager, next, jumper"
           :total="total">
       </el-pagination>
@@ -136,7 +136,7 @@ export default {
 
     return{
       //获取用户列表的参数对象
-      quaryInfo:{
+      queryInfo:{
         query:'',
         pageSize:5,/*一页内数据个数*/
         currentPage:1/*当前页数*/
@@ -253,7 +253,7 @@ export default {
   methods:{
     //获取用户列表
     async getUserList(){
-     const {data:res} = await this.$http.get('user',{params:this.quaryInfo})
+     const {data:res} = await this.$http.get('user',{params:this.queryInfo})
       if(res.code !== 200)
         return this.$message.error(res.msg)
 
@@ -265,13 +265,13 @@ export default {
     //监听页面内显示数据数量改变的事件
     handleSizeChange(newSize){
       //console.log(newSize)
-      this.quaryInfo.pageSize = newSize;
+      this.queryInfo.pageSize = newSize;
       this.getUserList();
     },
     //监听页码值改变的事件
     handleCurrentChange(newPage){
       console.log(newPage)
-      this.quaryInfo.currentPage = newPage-1;
+      this.queryInfo.currentPage = newPage-1;
       this.getUserList();
     },
 
@@ -296,8 +296,8 @@ export default {
         if (!valid)return
         //可以发起添加用户的网络请求
         const {data:res} = await this.$http.post('addUser',this.addForm)
-        if (res.data!== 200){
-          this.$message.error('添加用户失败!')
+        if (res.code!== 200){
+          return this.$message.error('添加用户失败!')
         }
         this.$message.success('添加用户成功!')
         //隐藏添加用户的对话框

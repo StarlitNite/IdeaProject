@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stufood.dao.ShopDao">
+
+    <select id="getShopList" resultType="com.stufood.entity.Shop">
+        select * from shop
+        <if test="query != null and query!=''">/*如果传入参数有query（shopName）,则加入用户名模糊查询*/
+            where shopName like '%${query}%'
+        </if>
+        order by shopId asc limit ${pageSize} offset ${currentPage};
+    </select>
+
+    <select id="getShopNum" resultType="double">
+        select count(*) from shop
+    </select>
+
+    <!--添加菜品-->
+    <insert id="addShop" parameterType="com.stufood.model.dto.addShopInfo">
+        insert into shop(shopName,shopTel) values ('${shopName}','${shopTel}')
+    </insert>
+    <!--修改菜品-->
+    <!--根据ID获取菜品信息-->
+    <select id="getShopById" resultType="com.stufood.entity.Shop">
+        select * from shop where shopId=${shopId}
+    </select>
+    <update id="editShopById" parameterType="com.stufood.model.dto.editShopInfo">
+        update shop set  shopName='${editShopInfo.shopName}',shopTel='${editShopInfo.shopTel}' where shopId=${shopId}
+    </update>
+
+    <!--根据用户ID删除用户-->
+    <delete id="delShopById">
+        delete from shop where shopId=${shopId}
+    </delete>
+</mapper>
